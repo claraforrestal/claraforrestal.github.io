@@ -1,0 +1,214 @@
+body {
+    color: #495057;
+    background: #fff;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-image {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background: url(assets/Header-Background.png) no-repeat right bottom;
+    background-size: contain;
+    background-color: #A36A6B;
+
+}
+
+.content {
+    position: absolute;
+    top: 600px;
+    width: 100%;
+
+}
+
+button {
+    background: #660708;
+    border-color: #660708;
+    border-radius: 1000px;
+    border-width: 0px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 8px 64px;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+nav {
+    background: #945152;
+    color: #fff;
+    min-height: 40px;
+    position: fixed;
+    text-align: right;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 2%;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-content {
+    color: #fff;
+    display: block;
+    padding: 8%;
+}
+
+#site-title {
+    font-family: Roboto Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 94px;
+    margin-bottom: 8px;
+}
+
+#site-subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    /* Burgundy/10 */
+    color: #F0E6E6;
+    margin-bottom: 36px;
+}
+
+
+
+h1 {
+    font-weight: 100;
+    font-size: 44px;
+    line-height: 52px;
+    margin: 0 auto 2% auto;
+
+}
+
+p {
+    font-size: 16px;
+    line-height: 23px;
+    /* Gray/10 */
+    color: #495057;
+}
+
+
+section {
+    margin: 0px;
+    padding: 40px 120px;
+}
+
+.container {}
+
+/*ABOUT ME SECTION*/
+
+#headshot-img {
+
+    background: url(assets/Clara_Forrestal.jpg) no-repeat center top;
+    background-size: cover;
+    border-radius: 8px;
+    height: 400px;
+    width: 28%;
+    margin-right: 2%;
+    display: inline-block;
+
+}
+
+#about-me-text {
+    display: inline-block;
+    max-width: 69%;
+    text-align: left;
+    vertical-align: top;
+}
+
+/*DESIGN PROCESS SECTION*/
+
+#design-process {
+    background: #F8F9FA;
+}
+
+.process-steps-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.process-step {
+    display: inline-block;
+    margin: 0px 20px;
+    max-width: 150px;
+    text-align: center;
+    vertical-align: top;
+}
+
+
+#professional-experience {
+/*
+    background: #798E8D;
+    color: #fff;
+*/
+}
+
+section#client-engagements,
+section#professional-experience {
+    margin-top: 3%;
+}
+
+#client-engagements .client-overview {
+    margin: 20px 0;
+}
+
+#client-engagements .client-overview img {
+    display: inline-block;
+    height: auto;
+    margin-right: 40px;
+    max-height: 500px;
+    vertical-align: top;
+    width: 500px;
+}
+
+#client-engagements .client-overview .client-overview-text {
+    display: inline-block;
+    max-width: 60%;
+    text-align: left;
+}
+
+#education {
+/*
+    background: #945152;
+    color: #fff;
+*/
+}
+
+#education img {
+    display: inline-block;
+    margin-right: 40px;
+    width: 500px;
+}
+
+#education .education-text {
+    display: inline-block;
+    max-width: 60%;
+}
