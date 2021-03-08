@@ -14,12 +14,19 @@ body {
 
 }
 
-.home-content {
+.home-content, .content {
+    max-width: 1440px;
     width: 100%;
+    margin: auto;
 }
 
 .content{
     margin-top: 40px;
+}
+
+a, a:visited {
+    color: #577270;
+    display: inline-block;
 }
 
 button {
@@ -75,7 +82,7 @@ nav ul li {
     margin-right: 2%;
 }
 
-nav ul li a {
+nav ul li a, nav ul li a:visited {
     color: #fff;
     text-decoration: none;
 }
@@ -116,7 +123,7 @@ h1 {
     font-weight: 100;
     font-size: 36px;
     line-height: 52px;
-    margin: 0 auto 2% auto;
+    /* margin: 0 auto 2% auto; */
     text-transform: uppercase;
     width: 100%;
 
@@ -132,10 +139,13 @@ p {
 
 section {
     margin: 0px;
-    padding: 40px 120px;
+    padding: 40px;
 }
 
-.container {}
+.section-header {
+    display: flex;
+    flex-wrap: nowrap;
+}
 
 /*ABOUT ME SECTION*/
 
@@ -162,10 +172,13 @@ section {
 
 #design-process {
     background: #F8F9FA;
+    border-radius: 8px;
+    color: #577270;
 }
 
 .process-steps-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -192,7 +205,7 @@ section#featured-work .card-container{
     flex-flow: row wrap;
     align-items: flex-start;
     padding: 0px;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 section#featured-work .card-container .card{
@@ -202,22 +215,17 @@ section#featured-work .card-container .card{
     flex-direction: column;
     align-items: flex-start;
     padding: 24px;
-
     position: static;
-    width: 28%;
+    min-height: 100%;
     height: 560px;
-
+    width: 600px;
     background: #FFFFFF;
-    /* 2/normal */
-
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.148902);
-
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.148902);
     /* Inside Auto Layout */
 
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0 24px 24px 0;
 }
 
 section#featured-work .card-container .card img{
@@ -230,10 +238,26 @@ section#featured-work h1{
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
+    flex: 1;
     line-height: 50px;
     /* Emerald/1 */
     color: #577270;
-    width: 100%;
+    display: inline-block;
+}
+section#featured-work a{
+    align-self: center;
+    flex:1;
+    font-size: 18px;
+    text-align: right;
+    text-decoration: none;
+}
+
+section#featured-work a:hover{
+    text-decoration: underline;
+}
+
+section#featured-work a .green-arrow {
+    height: 12px;
 }
 
 section#featured-work h3{
@@ -303,4 +327,59 @@ section#featured-work .tag-container .tag{
 #education .education-text {
     display: inline-block;
     max-width: 60%;
+}
+
+
+/*RESPONSIVENESS*/
+
+/*Mobile*/
+
+@media only screen and (max-width: 768px){
+    .header-content{
+        margin: 24px;
+    }
+    
+    #site-title {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 56px;
+        margin-bottom: 8px;
+    }
+    
+    #site-subtitle {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        /* identical to box height */
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        /* Burgundy/10 */
+        color: #F0E6E6;
+        margin-bottom: 36px;
+    }
+    
+    section {
+        padding: 12px 24px; 
+    }
+    #headshot-img{
+        height: 320px;
+        object-fit: contain;
+        max-width: 360px;
+        width: 100%;
+    }
+    #about-me-text{
+        max-width: 100%;
+    }
+
+    section#featured-work .card-container .card{
+        width: 100%;
+        height: 100%;
+        padding: 8px 0;
+    }
+
+    section#featured-work .card-container .card-text{
+        padding: 24px;
+    }
 }
