@@ -541,6 +541,11 @@ section#featured-work h3 {
     background-size: contain;
   }
 
+  .photo-grid h5{
+    margin: 8px 0 16px;
+    text-align: center;
+  }
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
     .column {
