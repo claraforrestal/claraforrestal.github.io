@@ -142,6 +142,7 @@ p {
 
 
 section {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     max-width: 1440px;
     margin: auto;
     padding: 40px;
@@ -261,6 +262,7 @@ section#featured-work .card-container .card{
     order: 0;
     flex-grow: 0;
     margin-bottom: 60px;
+    
 }
 
 section#featured-work .card-container .card img{
