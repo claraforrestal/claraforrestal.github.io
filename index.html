@@ -8,13 +8,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Clara Forrestal</title>
-    <style>
-    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <header class='header-image'>
-        <nav>
+    <header>
+        <nav class="navbar">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="my-work.html">My Work</a></li>
@@ -27,6 +26,7 @@
             <div id="site-subtitle">Product Designer &amp; Front End Developer</div>
             <!-- <button class="primary-button"><a>Download Resume</a></button> -->
         </div>
+        <img class="header-image" src="assets/Header-Background.png" alt="Laptop on Desk">
     </header>
     <div class='home-content'>
         <section id="about-me" class="">
@@ -42,40 +42,49 @@
 
 
         <section id="design-process">
+            <div class="design-process-content">
             <h1>My Design Process</h1>
             <div class="process-steps-container">
                 <div class="process-step">
+                    <div class="process-step-img-container">
                     <img src="assets/Process-Diagram/Understand-Problem.png">
+                    </div>
                     <h4>Understand the problem to be solved.</h4>
                 </div>
                 <div class="process-step">
-                    <img src="assets/Process-Diagram/Know-Users.png">
+                        <div class="process-step-img-container">
+                    <img src="assets/Process-Diagram/Know-Users.png"></div>
                     <h4>Get to know the users and their needs.</h4>
                 </div>
                 <div class="process-step">
-                    <img src="assets/Process-Diagram/Information-Architecture.png">
+                        <div class="process-step-img-container">
+                    <img src="assets/Process-Diagram/Information-Architecture.png"></div>
                     <h4>Define the Information Architecture.</h4>
                 </div>
                 <div class="process-step">
-                    <img src="assets/Process-Diagram/Design-System.png">
+                        <div class="process-step-img-container">
+                    <img src="assets/Process-Diagram/Design-System.png"></div>
                     <h4>Establish a Design System.</h4>
                 </div>
                 <div class="process-step">
-                    <img src="assets/Process-Diagram/Mockups.png">
+                        <div class="process-step-img-container">
+                    <img src="assets/Process-Diagram/Mockups.png"></div>
                     <h4>Create wireframes and high-fidelity mockups.</h4>
                 </div>
                 <div class="process-step">
-                    <img src="assets/Process-Diagram/Iterate.png">
+                        <div class="process-step-img-container">
+                    <img src="assets/Process-Diagram/Iterate.png"></div>
                     <h4>Continually iterate based on feedback and testing.
                     </h4>
                 </div>
             </div>
+        </div>
         </section>
 
         <section id="featured-work">
             <div class="section-header">
                 <h1>Client Work</h1>
-                <a href="my-work.html">View More Work <img class="green-arrow" src="assets/Process-Diagram/Green Arrow.png"></a>
+                <a href="my-work.html"><button class="secondary-button">View More Work</button></a>
             </div>
             <div class="card-container">
                 <div class="card">
@@ -117,3 +126,4 @@
 
 
 </body></html>
+<!-- <script src="index.js"></script> -->
