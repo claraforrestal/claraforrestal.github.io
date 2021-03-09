@@ -20,6 +20,7 @@ header{
 
 .content{
     background: #F8F9FA;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     margin-top: 51px;
 }
 
@@ -354,7 +355,7 @@ section#featured-work .tag-container .tag{
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
-    max-width: 1200px;
+    max-width: 1360px;
     margin: 0 auto;
   }
   
@@ -372,7 +373,7 @@ section#featured-work .tag-container .tag{
   
   /* Container around content */
   .timeline-container {
-    padding: 0px 40px 40px 40px;
+    padding: 0px 0px 40px 40px;
     position: relative;
     background-color: inherit;
     width: 100%;
