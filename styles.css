@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    /* background: #A36A6B; */
+    background: #A36A6B;
     background: linear-gradient(96.79deg, #A36A6B 0%, #945152 100%);
 }
 
@@ -41,9 +41,10 @@ button {
     font-size: 20px;
     padding: 8px 64px;
     margin: 0;
+    letter-spacing: 0.04em;
     text-decoration: none;
     text-align: center;
-    transition: background 250ms ease-in-out, transform 150ms ease;
+    transition: 250ms ease-in-out, transform 150ms ease;
     -webkit-appearance: none;
     -moz-appearance: none;
 }
@@ -58,8 +59,9 @@ button.primary-button {
 }
 
 button.secondary-button {
-    background: #577270;
+    background: linear-gradient(91.35deg, #798E8D 0.07%, #68807E 99.93%);
     border-color: #577270;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 nav {
@@ -166,23 +168,35 @@ section {
 
 /*ABOUT ME SECTION*/
 
+section#about-me{
+    display: flex;
+}
+
 #headshot-img {
 
     background: url(assets/Clara_Forrestal.jpg) no-repeat center top;
     background-size: cover;
     border-radius: 8px;
     height: 400px;
-    width: 28%;
+    width: 400px;
     margin-right: 2%;
-    display: inline-block;
-
+    /* display: inline-block; */
+    flex:1;
 }
 
 #about-me-text {
-    display: inline-block;
+    /* display: inline-block;
     max-width: 69%;
     text-align: left;
-    vertical-align: top;
+    vertical-align: top; */
+    flex: 3;
+}
+
+#about-me-text h1{
+    margin-top: 0;
+}
+#about-me-text p:last-child{
+    margin-bottom: 0;
 }
 
 /*DESIGN PROCESS SECTION*/
@@ -197,6 +211,7 @@ section {
 #design-process .design-process-content {
     max-width: 1440px;
     margin: auto;
+    width: 100%;
 }
 
 .process-steps-container {
