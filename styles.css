@@ -620,7 +620,7 @@ section#featured-work h3 {
         flex-direction: column;
         align-items: flex-start;
         width: 100%;
-        
+
     }
 
     nav ul {
@@ -637,10 +637,17 @@ section#featured-work h3 {
         margin: 8px auto;
         padding: 8px;
         min-width: 240px;
+        visibility: hidden;
+        display: none;
     }
 
     nav ul li {
         margin-right: 4%;
+    }
+
+    button.primary-button {
+        width: 100%;
+        padding: 8px 32px;
     }
 
     .header-content {
@@ -653,6 +660,7 @@ section#featured-work h3 {
 
     section#about-me {
         flex-direction: column;
+        margin-top: 24px;
     }
 
     #about-me-text p:last-child {
@@ -725,6 +733,10 @@ section#featured-work h3 {
 
     section#featured-work .card-container .card-text {
         padding: 24px;
+    }
+
+    section#featured-work .card-container .card:nth-last-child(2){
+        margin-bottom: 24px;
     }
 
     /* Place the timelime to the left */
