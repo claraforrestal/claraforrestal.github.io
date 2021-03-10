@@ -77,13 +77,13 @@ nav {
 }
 
 nav ul {
-    flex:7;
+    flex: 7;
     list-style-type: none;
     margin-left: 64px;
     padding: 0;
 }
 
-nav button.primary-button{
+nav button.primary-button {
     flex: 1;
     margin: 0 64px 0 0;
     border-radius: 1000px;
@@ -102,7 +102,7 @@ nav button.primary-button{
     -moz-appearance: none;
 }
 
-nav button.primary-button a{
+nav button.primary-button a {
     color: #fff;
     text-decoration: none;
 }
@@ -118,10 +118,6 @@ nav ul li a:visited {
     text-decoration: none;
 }
 
-nav.navbar.transparent {
-    background: rgba(133, 57, 57, 0.5);
-}
-
 .header-content {
     color: #fff;
     display: inline-block;
@@ -129,7 +125,7 @@ nav.navbar.transparent {
     width: auto;
 }
 
-.header-content .primary-button a{
+.header-content .primary-button a {
     color: #fff;
     text-decoration: none;
 }
@@ -199,7 +195,7 @@ section {
 
 /*ABOUT ME SECTION*/
 
-section#about-me{
+section#about-me {
     display: flex;
 }
 
@@ -211,17 +207,18 @@ section#about-me{
     max-height: 400px;
     width: 400px;
     margin-right: 2%;
-    flex:1;
+    flex: 1;
 }
 
 #about-me-text {
     flex: 3;
 }
 
-#about-me-text h1{
+#about-me-text h1 {
     margin-top: 0;
 }
-#about-me-text p:last-child{
+
+#about-me-text p:last-child {
     margin-bottom: 0;
 }
 
@@ -549,7 +546,7 @@ section#featured-work h3 {
 .lightbox {
     /* Default to hidden */
     display: none;
-  
+
     /* Overlay entire screen */
     position: fixed;
     z-index: 999;
@@ -557,35 +554,35 @@ section#featured-work h3 {
     left: 0;
     right: 0;
     bottom: 0;
-    
+
     /* A bit of padding around image */
     padding: 1em;
-  
+
     /* Translucent background */
     background: rgba(0, 0, 0, 0.8);
-  }
-  
-  /* Unhide the lightbox when it's the target */
-  .lightbox:target {
+}
+
+/* Unhide the lightbox when it's the target */
+.lightbox:target {
     display: block;
-  }
-  
-  .lightbox span {
+}
+
+.lightbox span {
     /* Full width and height */
     display: block;
     width: 100%;
     height: 100%;
-  
+
     /* Size and position background image */
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-  }
+}
 
-  .photo-grid h5{
+.photo-grid h5 {
     margin: 8px 0 16px;
     text-align: center;
-  }
+}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -619,16 +616,47 @@ section#featured-work h3 {
         margin: 0 auto 32px;
     }
 
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        
+    }
+
+    nav ul {
+        flex: 1;
+        list-style-type: none;
+        margin: 8px auto;
+        padding: 0;
+        min-width: 240px;
+        text-align: center;
+    }
+
+    nav button.primary-button {
+        flex: 1;
+        margin: 8px auto;
+        padding: 8px;
+        min-width: 240px;
+    }
+
     nav ul li {
         margin-right: 4%;
     }
 
     .header-content {
-        margin: 24px 24px 0;
+        margin: 48px 24px 0;
     }
 
     .header-image {
         width: 100%;
+    }
+
+    section#about-me {
+        flex-direction: column;
+    }
+
+    #about-me-text p:last-child {
+        margin-bottom: 32px;
     }
 
     #site-title {
