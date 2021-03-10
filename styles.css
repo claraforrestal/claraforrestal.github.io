@@ -65,20 +65,46 @@ button.secondary-button {
 }
 
 nav {
+    align-items: center;
     background: #853939;
     color: #fff;
+    display: flex;
     min-height: 40px;
     position: fixed;
-    text-align: right;
     top: 0;
     width: 100%;
     z-index: 100;
 }
 
 nav ul {
+    flex:7;
     list-style-type: none;
+    margin-left: 64px;
     padding: 0;
-    width: 100%;
+}
+
+nav button.primary-button{
+    flex: 1;
+    margin: 0 64px 0 0;
+    border-radius: 1000px;
+    border: 2px solid #fff;
+    background: transparent;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 14px;
+    height: 32px;
+    padding: 2px 8px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    transition: 250ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+nav button.primary-button a{
+    color: #fff;
+    text-decoration: none;
 }
 
 nav ul li {
@@ -101,6 +127,11 @@ nav.navbar.transparent {
     display: inline-block;
     padding: 8%;
     width: auto;
+}
+
+.header-content .primary-button a{
+    color: #fff;
+    text-decoration: none;
 }
 
 #site-title {
@@ -174,21 +205,16 @@ section#about-me{
 
 #headshot-img {
 
-    background: url(assets/Clara_Forrestal.jpg) no-repeat center top;
+    background: url(assets/Clara_Forrestal_cropped.jpeg) no-repeat center top;
     background-size: cover;
     border-radius: 8px;
-    height: 400px;
+    max-height: 400px;
     width: 400px;
     margin-right: 2%;
-    /* display: inline-block; */
     flex:1;
 }
 
 #about-me-text {
-    /* display: inline-block;
-    max-width: 69%;
-    text-align: left;
-    vertical-align: top; */
     flex: 3;
 }
 
