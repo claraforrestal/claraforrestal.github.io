@@ -628,8 +628,10 @@ section#featured-work h3 {
         list-style-type: none;
         margin: 8px auto;
         padding: 0;
-        min-width: 240px;
+        width: 100%;
         text-align: center;
+        display: flex;
+        justify-content: space-around;
     }
 
     nav button.primary-button {
@@ -639,10 +641,6 @@ section#featured-work h3 {
         min-width: 240px;
         visibility: hidden;
         display: none;
-    }
-
-    nav ul li {
-        margin-right: 4%;
     }
 
     button.primary-button {
@@ -713,6 +711,10 @@ section#featured-work h3 {
         max-width: 100%;
     }
 
+    #about-me-text h1 {
+        margin: 24px 0;
+    }
+
     .process-steps-container {
         justify-content: center;
     }
@@ -735,7 +737,7 @@ section#featured-work h3 {
         padding: 24px;
     }
 
-    section#featured-work .card-container .card:nth-last-child(2){
+    section#featured-work .card-container .card:nth-last-child(2) {
         margin-bottom: 24px;
     }
 
