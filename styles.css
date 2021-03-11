@@ -331,7 +331,7 @@ section:first-child h1 {
     display: inline-block;
 }
 
-section#featured-work a {
+section#featured-work a.view-all {
     align-self: center;
     flex: 1;
     font-size: 18px;
@@ -584,23 +584,31 @@ section#featured-work h3 {
     text-align: center;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-    .column {
-        -ms-flex: 50%;
-        flex: 50%;
-        max-width: 50%;
-    }
+section#case-study {
+    padding: 40px 240px;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        -ms-flex: 100%;
-        flex: 100%;
-        max-width: 100%;
-    }
+section#case-study h1, section#case-study h2{
+    text-align: center;
 }
+
+section#case-study h3{
+    color: #68807E;
+}
+
+section#case-study img{
+    filter: grayscale(100%);
+}
+
+section#case-study .full-width{
+    max-width: 100%;
+}
+
+section#case-study img.half-width{
+    float: right;
+    max-width: 50%;
+}
+
 
 
 /*RESPONSIVENESS*/
@@ -758,5 +766,23 @@ section#featured-work h3 {
     /* Make all right containers behave like the left ones */
     .timeline-right {
         left: 0%;
+    }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
     }
 }
