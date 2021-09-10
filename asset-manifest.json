@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ae8cbd5e.chunk.css",
+    "main.js": "/static/js/main.beeeed0e.chunk.js",
+    "main.js.map": "/static/js/main.beeeed0e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.872fedc9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.872fedc9.js.map",
+    "static/js/2.6dbf9748.chunk.js": "/static/js/2.6dbf9748.chunk.js",
+    "static/js/2.6dbf9748.chunk.js.map": "/static/js/2.6dbf9748.chunk.js.map",
+    "static/js/3.6adaedce.chunk.js": "/static/js/3.6adaedce.chunk.js",
+    "static/js/3.6adaedce.chunk.js.map": "/static/js/3.6adaedce.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ae8cbd5e.chunk.css.map": "/static/css/main.ae8cbd5e.chunk.css.map",
+    "static/js/2.6dbf9748.chunk.js.LICENSE.txt": "/static/js/2.6dbf9748.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/Clara_Forrestal_cropped.7f3118fc.jpeg",
+    "static/media/Ecommerce-3-device.8f477440.png": "/static/media/Ecommerce-3-device.8f477440.png",
+    "static/media/Header-Background.8e1ae03c.png": "/static/media/Header-Background.8e1ae03c.png",
+    "static/media/Insurance3.f1e9aca8.png": "/static/media/Insurance3.f1e9aca8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.872fedc9.js",
+    "static/js/2.6dbf9748.chunk.js",
+    "static/css/main.ae8cbd5e.chunk.css",
+    "static/js/main.beeeed0e.chunk.js"
+  ]
+}
