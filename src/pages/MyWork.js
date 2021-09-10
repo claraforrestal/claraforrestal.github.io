@@ -2,7 +2,7 @@ import React from "react";
 
 function MyWork(){
     return (
-        <div>hi</div>
+        <div>My Work</div>
     );
 }
 
