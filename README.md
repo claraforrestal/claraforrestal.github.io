@@ -1,4 +1,7 @@
-# `npm run deploy` to build production
+#Steps to Deploy Changes
+1. Merge changes into main branch
+2. Checkout main branch
+3. `npm run deploy` to build production from main branch
 
 
 # Getting Started with Create React App
