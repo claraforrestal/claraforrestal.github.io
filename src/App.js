@@ -6,9 +6,7 @@ import MyWork from "./pages/MyWork";
 import {
   BrowserRouter as Router,
   Route,
-  Switch,
-  Link,
-  Redirect
+  Switch
 } from "react-router-dom";
 
 class App extends Component {
@@ -16,10 +14,8 @@ class App extends Component {
     return (
       <Router>
        {/*All our Routes goes here!*/}
-       <Switch>
-            <Route path="/" component={Home} />
-            <Route path="/mywork" component={MyWork} />
-       </Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/mywork" component={MyWork} />
       </Router>
     );
   }
