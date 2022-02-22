@@ -38,9 +38,7 @@ function MyWork() {
                         <div class="card">
                             <img src={Insurance} alt="Mobile Insurance Application" />
                             <div class="card-text">
-                                <a href="case-studies/insurance-case-study.html">
-                                    <h2>Mobile Application for National Auto Insurance Provider</h2>
-                                </a>
+                                <h2>Mobile Application for National Auto Insurance Provider</h2>
                                 <div class="tag-container">
                                     <span class="tag">Product Strategy</span>
                                     <span class="tag">Design Systems</span>
@@ -78,10 +76,7 @@ function MyWork() {
                         <div class="card">
                             <img src={Portal} alt="Portal Application on 2 Devices" />
                             <div class="card-text">
-                                <a href="case-studies/portals-case-study.html">
-                                    <h2>API Documentation Portal and Operations Portal for Global Financial Services Company
-                            </h2>
-                                </a>
+                                <h2>API Documentation Portal and Operations Portal for Global Financial Services Company</h2>
                                 <div class="tag-container">
                                     <span class="tag">Product Strategy</span>
                                     <span class="tag">Design Systems</span>
