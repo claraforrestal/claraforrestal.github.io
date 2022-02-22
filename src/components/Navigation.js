@@ -10,7 +10,7 @@ function Navigation(){
                 <li><Link to="/mywork">My Work</Link></li>
                 {/* <li><a href="experience.html">Experience</a></li> */}
             </ul>
-            <button class="primary-button" data-component="Primary-Button"><a href="../assets/Resume.pdf" download="ClaraForrestalResume.pdf">Download Resume</a></button>
+            <button class="primary-button" data-component="Primary-Button"><a href="./assets/Resume.pdf" download="ClaraForrestalResume.pdf">Download Resume</a></button>
         </nav>
     );
 }
