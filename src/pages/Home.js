@@ -5,8 +5,8 @@ import Step3 from '../assets/Process-Diagram/Step3.png';
 import Step4 from '../assets/Process-Diagram/Step4.png';
 import Step5 from '../assets/Process-Diagram/Step5.png';
 import Step6 from '../assets/Process-Diagram/Step6.png';
-import Ecommerce from '../Ecommerce-3-device.png';
-import Insurance from '../assets/Client-Work/Insurance3.png';
+import BankDesignSystem from '../assets/Client-Work/BankDesignSystem.png';
+import LogisticsDesignSystem from '../assets/Client-Work/LogisticsDesignSystem.png';
 import Navigation from '../components/Navigation';
 
 function Home() {
