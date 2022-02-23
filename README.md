@@ -1,8 +1,9 @@
-#Steps to Deploy Changes
+# Steps to Deploy Changes
 1. Merge changes into main branch
 2. Checkout main branch
 3. `npm run deploy` to build production from main branch
 
+# Keep gh-pages branch! This is used to publish to production 
 
 # Getting Started with Create React App
 
