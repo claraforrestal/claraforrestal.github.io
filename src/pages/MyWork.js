@@ -1,6 +1,8 @@
 import React from "react";
 import Navigation from '../components/Navigation';
 import './MyWork.css';
+import BankDesignSystem from '../assets/Client-Work/BankDesignSystem.png';
+import LogisticsDesignSystem from '../assets/Client-Work/LogisticsDesignSystem.png';
 import Ecommerce from '../assets/Client-Work/Ecommerce-3-device.png';
 import Insurance from '../assets/Client-Work/Insurance3.png';
 import Zelle from '../assets/Client-Work/Zelle Integration Sandbox.png';
@@ -16,7 +18,7 @@ function MyWork() {
                     <h1>Client Work</h1>
                     <div class="card-container">
                         <div class="card">
-                            {/* <img src={Ecommerce} alt="Ecommerce Application on 3 Devices" /> */}
+                            <img src={LogisticsDesignSystem} alt="Logistics Design System" />
                             <div class="card-text">
                                 <h2>Design System Lead for International Warehousing and Logistics Company</h2>
                                 <div class="tag-container">
@@ -27,14 +29,14 @@ function MyWork() {
                                     <span class="tag">Figma</span>
                                     <span class="tag">Responsive Design</span>
                                 </div>
-                                <h3>My Roles</h3>
+                                <h3>My Role</h3>
                                 <ul>
                                     <li>Design System Lead since October 2021</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="card">
-                            {/* <img src={Ecommerce} alt="Ecommerce Application on 3 Devices" /> */}
+                            <img src={BankDesignSystem} alt="Bank Design System" />
                             <div class="card-text">
                                 <h2>Design System Subject Matter Expert for National Bank</h2>
                                 <div class="tag-container">
@@ -45,7 +47,7 @@ function MyWork() {
                                     <span class="tag">Figma</span>
                                     <span class="tag">Responsive Design</span>
                                 </div>
-                                <h3>My Roles</h3>
+                                <h3>My Role</h3>
                                 <ul>
                                     <li>Design System SME for 7 months</li>
                                 </ul>
