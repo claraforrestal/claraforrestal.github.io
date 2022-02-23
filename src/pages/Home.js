@@ -17,7 +17,7 @@ function Home() {
                 <div className="header-content">
                     <div id="site-title">Clara Forrestal</div>
                     <div id="site-subtitle">Product Designer &amp; Front End Developer</div>
-                    <button className="primary-button"><a href="./assets/Resume.pdf" download="ClaraForrestalResume.pdf">Download Resume</a></button>
+                    <button className="primary-button"><a href="./Resume.pdf" download="ClaraForrestalResume.pdf">Download Resume</a></button>
                 </div>
                 <img className="header-image" src={HeaderImage} alt="Laptop on Desk" />
             </header>
