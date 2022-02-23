@@ -27,7 +27,7 @@ function Home() {
                     <img id="headshot-img" />
                     <div id="about-me-text">
                         <h1>About Me</h1>
-                        <p>Hi, my name is Clara and I’m a product designer and a design system expert based in Charlotte, NC.
+                        <p>Hi, my name is Clara and I’m a product designer and design system expert based in Charlotte, NC.
                             I currently work as a Product Design Consultant at a software consultancy that specializes in
                             end-to-end digital transformations for various clients. I bring a development background and a
                             creative problem-solving approach to the design of digital experiences. I’m passionate about
