@@ -16,6 +16,42 @@ function MyWork() {
                     <h1>Client Work</h1>
                     <div class="card-container">
                         <div class="card">
+                            {/* <img src={Ecommerce} alt="Ecommerce Application on 3 Devices" /> */}
+                            <div class="card-text">
+                                <h2>Design System Lead for International Warehousing and Logistics Company</h2>
+                                <div class="tag-container">
+                                    <span class="tag">Design Systems</span>
+                                    <span class="tag">DesignOps</span>
+                                    <span class="tag">Product Strategy</span>
+                                    <span class="tag">User Interface Design</span>
+                                    <span class="tag">Figma</span>
+                                    <span class="tag">Responsive Design</span>
+                                </div>
+                                <h3>My Roles</h3>
+                                <ul>
+                                    <li>Design System Lead since October 2021</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            {/* <img src={Ecommerce} alt="Ecommerce Application on 3 Devices" /> */}
+                            <div class="card-text">
+                                <h2>Design System Subject Matter Expert for National Bank</h2>
+                                <div class="tag-container">
+                                    <span class="tag">Design Systems</span>
+                                    <span class="tag">DesignOps</span>
+                                    <span class="tag">Product Strategy</span>
+                                    <span class="tag">User Interface Design</span>
+                                    <span class="tag">Figma</span>
+                                    <span class="tag">Responsive Design</span>
+                                </div>
+                                <h3>My Roles</h3>
+                                <ul>
+                                    <li>Design System SME for 7 months</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
                             <img src={Ecommerce} alt="Ecommerce Application on 3 Devices" />
                             <div class="card-text">
                                 <h2>Digital Transformation for Global E-Commerce Company</h2>

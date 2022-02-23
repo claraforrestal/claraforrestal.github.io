@@ -113,7 +113,7 @@ function Home() {
                 <div class="card">
                     <img src={Insurance} alt="Mobile Insurance Application"/>
                     <div class="card-text">
-                            <a href="case-studies/insurance-case-study.html"><h2>Mobile Application for National Auto Insurance Provider</h2></a>
+                            <h2>Mobile Application for National Auto Insurance Provider</h2>
                         <div class="tag-container">
                             <span class="tag">Product Strategy</span>
                             <span class="tag">Design Systems</span>
@@ -135,7 +135,7 @@ function Home() {
         <section data-component="Recent-Experience">
             <div class="section-header">
                 <h1>Recent Experience</h1>
-                <a href="experience.html"><button class="secondary-button">View All Experience</button></a>
+                {/* <a href="experience.html"><button class="secondary-button">View All Experience</button></a> */}
             </div>
             <div class="timeline">
                 <div class="timeline-container timeline-right">
