@@ -16,7 +16,7 @@ function Home() {
                 <Navigation />
                 <div className="header-content">
                     <div id="site-title">Clara Forrestal</div>
-                    <div id="site-subtitle">Product Designer &amp; Front End Developer</div>
+                    <div id="site-subtitle">Product Designer &amp; Design System Expert</div>
                     <button className="primary-button"><a href="./Resume.pdf" download="ClaraForrestalResume.pdf">Download Resume</a></button>
                 </div>
                 <img className="header-image" src={HeaderImage} alt="Laptop on Desk" />
