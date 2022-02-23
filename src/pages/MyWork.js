@@ -5,7 +5,7 @@ import Ecommerce from '../assets/Client-Work/Ecommerce-3-device.png';
 import Insurance from '../assets/Client-Work/Insurance3.png';
 import Zelle from '../assets/Client-Work/Zelle Integration Sandbox.png';
 import Portal from '../assets/Client-Work/Portal-2-devices.png';
-import Marketing from '../assets/Client-Work/Dental Product Marketing Site.png';
+import Marketing from '../Dental Product Marketing Site.png';
 
 function MyWork() {
     return (

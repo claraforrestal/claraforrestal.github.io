@@ -5,7 +5,7 @@ import Step3 from '../assets/Process-Diagram/Step3.png';
 import Step4 from '../assets/Process-Diagram/Step4.png';
 import Step5 from '../assets/Process-Diagram/Step5.png';
 import Step6 from '../assets/Process-Diagram/Step6.png';
-import Ecommerce from '../assets/Client-Work/Ecommerce-3-device.png';
+import Ecommerce from '../Ecommerce-3-device.png';
 import Insurance from '../assets/Client-Work/Insurance3.png';
 import Navigation from '../components/Navigation';
 
