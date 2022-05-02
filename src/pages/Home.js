@@ -87,7 +87,7 @@ function Home() {
                 <section id="featured-work" data-component="Featured-Work">
                     <div class="section-header">
                         <h1>Featured Work</h1>
-                        {*/<a class="view-all" href="/mywork"><button class="secondary-button">View All Work</button></a>*/}
+                        {/*<a class="view-all" href="/mywork"><button class="secondary-button">View All Work</button></a>*/}
                     </div>
                     <div class="card-container">
                         <div class="card">
