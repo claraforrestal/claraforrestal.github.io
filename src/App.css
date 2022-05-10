@@ -656,7 +656,7 @@ section#case-study img.half-width{
 
 /*Mobile*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1264px) {
   h1 {
       text-align: center;
   }
