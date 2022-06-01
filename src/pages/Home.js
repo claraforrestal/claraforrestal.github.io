@@ -7,6 +7,11 @@ import Step5 from '../assets/Process-Diagram/Step5.png';
 import Step6 from '../assets/Process-Diagram/Step6.png';
 import BankDesignSystem from '../assets/Client-Work/BankDesignSystem.png';
 import LogisticsDesignSystem from '../assets/Client-Work/LogisticsDesignSystem.png';
+import Ecommerce from '../assets/Client-Work/Ecommerce-3-device.png';
+import Insurance from '../assets/Client-Work/Insurance3.png';
+import Zelle from '../assets/Client-Work/Zelle Integration Sandbox.png';
+import Portal from '../assets/Client-Work/Portal-2-devices.png';
+import Marketing from '../assets/Client-Work/Dental Product Marketing Site.png';
 import Navigation from '../components/Navigation';
 
 function Home() {
@@ -121,6 +126,100 @@ function Home() {
                                 <h3>My Role</h3>
                                 <ul>
                                     <li>Design System SME for 7 months</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src={Ecommerce} alt="Ecommerce Application on 3 Devices" />
+                            <div class="card-text">
+                                <h2>Digital Transformation for Global E-Commerce Company</h2>
+                                <div class="tag-container">
+                                    <span class="tag">Product Strategy</span>
+                                    <span class="tag">User Research</span>
+                                    <span class="tag">React.js & LESS</span>
+                                    <span class="tag">User Interface Design</span>
+                                    <span class="tag">Sketch & Invision</span>
+                                    <span class="tag">Responsive Design</span>
+                                </div>
+                                <h3>My Roles</h3>
+                                <ul>
+                                    <li>UX Researcher for 1 month</li>
+                                    <li>Front End Developer for 8 months</li>
+                                    <li>Product Designer for 10 months</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src={Insurance} alt="Mobile Insurance Application" />
+                            <div class="card-text">
+                                <h2>Mobile Application for National Auto Insurance Provider</h2>
+                                <div class="tag-container">
+                                    <span class="tag">Product Strategy</span>
+                                    <span class="tag">Design Systems</span>
+                                    <span class="tag">User Interface Design</span>
+                                    <span class="tag">Sketch & Invision</span>
+                                    <span class="tag">User Research</span>
+                                </div>
+                                <h3>My Roles</h3>
+                                <ul>
+                                    <li>UX Researcher for 1 week</li>
+                                    <li>Product Designer for 2 months</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src={Zelle}
+                                alt="Zelle Integration Sandbox Application on 3 Devices" />
+                            <div class="card-text">
+                                <h2>Zelle Integration Sandbox</h2>
+                                <div class="tag-container">
+                                    <span class="tag">Angular.js & SASS</span>
+                                    <span class="tag">Responsive Design</span>
+                                    <span class="tag">Interaction Design</span>
+                                    <span class="tag">Figma</span>
+
+                                </div>
+                                <h3>My Role</h3>
+                                <ul>
+                                    <li>Angular/SASS Developer for 3 months</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src={Portal} alt="Portal Application on 2 Devices" />
+                            <div class="card-text">
+                                <h2>API Documentation Portal and Operations Portal for Global Financial Services Company</h2>
+                                <div class="tag-container">
+                                    <span class="tag">Product Strategy</span>
+                                    <span class="tag">Design Systems</span>
+                                    <span class="tag">User Interface Design</span>
+                                    <span class="tag">Figma</span>
+                                    <span class="tag">User Research</span>
+                                </div>
+                                <h3>My Roles</h3>
+                                <ul>
+                                    <li>UX Researcher for 2 weeks</li>
+                                    <li>Product Designer for 3 months</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src={Marketing}
+                                alt="Marketing Site for Dental Product on 2 Devices" />
+                            <div class="card-text">
+                                <h2>Marketing Website Redesign for New Dental Product</h2>
+                                <div class="tag-container">
+                                    <span class="tag">Product Strategy</span>
+                                    <span class="tag">Competitive Analysis</span>
+                                    <span class="tag">Desktop Design</span>
+                                </div>
+                                <h3>My Roles</h3>
+                                <ul>
+                                    <li>UX Researcher for 2 weeks</li>
+                                    <li>Product Designer for 3 months</li>
                                 </ul>
                             </div>
                         </div>
