@@ -1,5 +1,6 @@
 .App {
   text-align: left;
+  overflow-x: hidden;
 }
 
 .App-logo {
@@ -162,7 +163,7 @@ nav ul li a:visited {
 .header-content {
   color: #fff;
   display: inline-block;
-  padding: 80px 40px;
+  padding: 80px 0px;
   text-align: center;
   width: 100%;
 }
