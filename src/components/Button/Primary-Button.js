@@ -2,12 +2,12 @@ import React from "react";
 import './Primary-Button.scss';
 import Download from "../../assets/icons/arrow-down-to-line.png";
 
-function PrimaryButton(){
+function PrimaryButton(props){
     return (
-        <button className="primary-button">
-            Download Resume
+        <a className="primary-button" href={props.href} download>
+            {props.text}
             <img alt="" src={Download} />
-        </button>
+        </a>
     );
 }
 

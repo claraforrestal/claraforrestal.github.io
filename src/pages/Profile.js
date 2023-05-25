@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Profile.scss";
 import Navigation from '../components/Navigation/Navigation';
-// import PrimaryButton from '../components/Button/Primary-Button';
+import PrimaryButton from '../components/Button/Primary-Button';
 import Tag from '../components/Tag/Tag';
 import Avatar from "../assets/CFAvatar.png";
 
@@ -30,12 +30,13 @@ function Profile() {
                                     design systems,
                                     <a href="https://ooux.com/">Object-Oriented UX</a>, DesignOps, and connecting design and development teams.</p>
                             </div>
-                            {/* <PrimaryButton/> */}
+                            <PrimaryButton text="Download Resume" href={process.env.PUBLIC_URL + "/ClaraForrestalResume.pdf"}/>
                         </div>
                     </div>
                 </div>
+                <a className='scroll-arrow' href="#bottom"><span></span></a>
             </div>
-            <div className='bottom-wrapper'>
+            <div id="bottom" className='bottom-wrapper'>
                 <div className='white-cards'>
                     <div className='left'>
                         <div className='experience-education-wrapper'>

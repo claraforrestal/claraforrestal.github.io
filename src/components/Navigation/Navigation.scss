@@ -15,7 +15,7 @@
         height: 24px;
     }
 
-    .nav-links{
+    .nav-links {
         display: flex;
         margin: 0;
 
@@ -31,6 +31,14 @@
                 font-size: 18px;
                 line-height: 22px;
                 text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                    text-decoration-thickness: 2px;
+                    text-underline-offset: 8px;
+                    /* Blue/2 */
+                    color: colors.$blue-1;
+
+                }
             }
         }
     }
