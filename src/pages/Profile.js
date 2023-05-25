@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Profile.scss";
 import Navigation from '../components/Navigation/Navigation';
-import PrimaryButton from '../components/Button/Primary-Button';
+// import PrimaryButton from '../components/Button/Primary-Button';
 import Tag from '../components/Tag/Tag';
 import Avatar from "../assets/CFAvatar.png";
 
@@ -30,7 +30,7 @@ function Profile() {
                                     design systems,
                                     <a href="https://ooux.com/">Object-Oriented UX</a>, DesignOps, and connecting design and development teams.</p>
                             </div>
-                            <PrimaryButton/>
+                            {/* <PrimaryButton/> */}
                         </div>
                     </div>
                 </div>
@@ -78,25 +78,25 @@ function Profile() {
                         <div className='skills-tools-wrapper'>
                             <h4>Skills</h4>
                             <div className='tags'>
-                                <Tag text="Design Systems" iconPath="/" type="skill"/>
-                                <Tag text="DesignOps" iconPath="/" type="skill"/>
-                                <Tag text="Information Architecture" iconPath="/" type="skill"/>
-                                <Tag text="Product Strategy" iconPath="/" type="skill"/>
-                                <Tag text="Design Audit" iconPath="/" type="skill"/>
-                                <Tag text="Object Mapping" iconPath="/" type="skill"/>
-                                <Tag text="Interaction Design" iconPath="/" type="skill"/>
-                                <Tag text="Wireframing" iconPath="/" type="skill"/>
-                                <Tag text="UI Design" iconPath="/" type="skill"/>
-                                <Tag text="Prototyping" iconPath="/" type="skill"/>
-                                <Tag text="Development Handoff" iconPath="/" type="skill"/>
-                                <Tag text="Usability Testing" iconPath="/" type="skill"/>
-                                <Tag text="Ideation Sessions" iconPath="/" type="skill"/>
-                                <Tag text="Workshop Facilitation" iconPath="/" type="skill"/>
-                                <Tag text="Journey Mapping" iconPath="/" type="skill"/>
-                                <Tag text="User Interviews" iconPath="/" type="skill"/>
-                                <Tag text="Market Analysis" iconPath="/" type="skill"/>
-                                <Tag text="Surveys" iconPath="/" type="skill"/>
-                                <Tag text="Requirements Gathering" iconPath="/" type="skill"/>
+                                <Tag text="Design Systems" type="skill"/>
+                                <Tag text="DesignOps" type="skill"/>
+                                <Tag text="Information Architecture" type="skill"/>
+                                <Tag text="Product Strategy" type="skill"/>
+                                <Tag text="Design Audit" type="skill"/>
+                                <Tag text="Object Mapping" type="skill"/>
+                                <Tag text="Interaction Design" type="skill"/>
+                                <Tag text="Wireframing" type="skill"/>
+                                <Tag text="UI Design" type="skill"/>
+                                <Tag text="Prototyping" type="skill"/>
+                                <Tag text="Development Handoff" type="skill"/>
+                                <Tag text="Usability Testing" type="skill"/>
+                                <Tag text="Ideation Sessions" type="skill"/>
+                                <Tag text="Workshop Facilitation" type="skill"/>
+                                <Tag text="Journey Mapping" type="skill"/>
+                                <Tag text="User Interviews" type="skill"/>
+                                <Tag text="Market Analysis" type="skill"/>
+                                <Tag text="Surveys" type="skill"/>
+                                <Tag text="Requirements Gathering" type="skill"/>
                             </div>
                             <h4>Tools</h4>
                             <div className='tags'>
@@ -121,7 +121,6 @@ function Profile() {
                     </div>
                 </div>
             </div>
-
         </div>
     );
 }

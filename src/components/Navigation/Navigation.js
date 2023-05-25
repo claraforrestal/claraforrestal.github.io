@@ -3,6 +3,9 @@ import './Navigation.scss';
 import { Link } from "react-router-dom";
 import Logo from '../../assets/Logo.png';
 
+
+//navbar scroll changeBackground function
+
 function Navigation(props){
     return (
         <nav className={`navbar ${props.page}-page-hero`} data-component="Navigation">
