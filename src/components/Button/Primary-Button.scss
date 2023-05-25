@@ -1,0 +1,35 @@
+@use "../../styles/colors" as colors;
+
+button {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 258px;
+    height: 70px;
+
+    /* Blue/1 */
+    background: colors.$blue-1;
+
+    border: 2px solid colors.$blue-1;
+    border-radius: 4px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFFFF;
+
+    margin-top: 32px;
+}

@@ -1,0 +1,32 @@
+@use "../../styles/colors" as colors;
+
+.navbar {
+    background-color: colors.$blue-10;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 64px;
+
+    .logo {
+        height: 24px;
+    }
+
+    .nav-links{
+        display: flex;
+        margin: 0;
+
+        li {
+            list-style: none;
+            margin-left: 32px;
+
+            a {
+                color: colors.$gray-2;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                text-decoration: none;
+            }
+        }
+    }
+}

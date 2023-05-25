@@ -1,3 +1,80 @@
-body{
-    background-color: hotpink;
+@use "../styles/colors" as colors;
+
+.App {
+    background-color: #fff;
+    .hero-wrapper{
+        /* Blue/10 */
+        background: colors.$blue-10;
+
+        .hero{
+            /* Auto layout */
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 64px;
+            gap: 56px;
+
+            // height: 100vh;
+
+
+            &-text {
+                max-width: 896px;
+                display: flex;
+                flex-direction: column;
+                // align-items: flex-start;
+                padding: 0px;
+                gap: 8px;
+
+                h1,h2,p {
+                    margin: 0;
+                }
+
+                h1 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 64px;
+                    line-height: 77px;
+
+                    /* Gray/1 */
+                    color: colors.$gray-1;
+
+                }
+
+                h2 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 32px;
+                    line-height: 39px;
+                    /* identical to box height */
+
+
+                    /* Blue/1 */
+                    color: colors.$blue-1;
+                }
+
+                .description {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 0px;
+                    gap: 24px;
+
+                    p {
+                        font-family: 'Inter';
+                        font-style: italic;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 22px;
+    
+                        /* Gray/1 */
+                        color: colors.$gray-1;
+                    }
+                }
+
+            }
+        }
+    }
 }
