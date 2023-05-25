@@ -1,31 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.a0276d91.chunk.css",
-    "main.js": "/static/js/main.7398433f.chunk.js",
-    "main.js.map": "/static/js/main.7398433f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.933749fe.js",
-    "runtime-main.js.map": "/static/js/runtime-main.933749fe.js.map",
-    "static/js/2.ff83b673.chunk.js": "/static/js/2.ff83b673.chunk.js",
-    "static/js/2.ff83b673.chunk.js.map": "/static/js/2.ff83b673.chunk.js.map",
-    "static/js/3.01419fce.chunk.js": "/static/js/3.01419fce.chunk.js",
-    "static/js/3.01419fce.chunk.js.map": "/static/js/3.01419fce.chunk.js.map",
+    "main.css": "/static/css/main.0189507a.css",
+    "main.js": "/static/js/main.8eb94dcc.js",
+    "static/js/787.d8c47fce.chunk.js": "/static/js/787.d8c47fce.chunk.js",
+    "static/media/CFAvatar.png": "/static/media/CFAvatar.7179d67c002811690d3f.png",
     "index.html": "/index.html",
-    "static/css/main.a0276d91.chunk.css.map": "/static/css/main.a0276d91.chunk.css.map",
-    "static/js/2.ff83b673.chunk.js.LICENSE.txt": "/static/js/2.ff83b673.chunk.js.LICENSE.txt",
-    "static/media/BankDesignSystem.ce47fade.png": "/static/media/BankDesignSystem.ce47fade.png",
-    "static/media/App.css": "/static/media/Clara_Forrestal_cropped.7f3118fc.jpeg",
-    "static/media/Dental Product Marketing Site.47e1c4cd.png": "/static/media/Dental Product Marketing Site.47e1c4cd.png",
-    "static/media/Ecommerce-3-device.8f477440.png": "/static/media/Ecommerce-3-device.8f477440.png",
-    "static/media/Header-Background.8e1ae03c.png": "/static/media/Header-Background.8e1ae03c.png",
-    "static/media/Insurance3.f1e9aca8.png": "/static/media/Insurance3.f1e9aca8.png",
-    "static/media/LogisticsDesignSystem.7390c42f.png": "/static/media/LogisticsDesignSystem.7390c42f.png",
-    "static/media/Portal-2-devices.d9281f35.png": "/static/media/Portal-2-devices.d9281f35.png",
-    "static/media/Zelle Integration Sandbox.c6850b6c.png": "/static/media/Zelle Integration Sandbox.c6850b6c.png"
+    "main.0189507a.css.map": "/static/css/main.0189507a.css.map",
+    "main.8eb94dcc.js.map": "/static/js/main.8eb94dcc.js.map",
+    "787.d8c47fce.chunk.js.map": "/static/js/787.d8c47fce.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.933749fe.js",
-    "static/js/2.ff83b673.chunk.js",
-    "static/css/main.a0276d91.chunk.css",
-    "static/js/main.7398433f.chunk.js"
+    "static/css/main.0189507a.css",
+    "static/js/main.8eb94dcc.js"
   ]
 }
