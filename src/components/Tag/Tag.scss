@@ -1,0 +1,27 @@
+@use "../../styles/colors" as colors;
+
+.tag {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 4px 4px 4px 0;
+
+    border-radius: 32px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+}
+
+.skill-tag {
+    background: colors.$blue-5;
+}
+
+.tool-tag {
+    background: colors.$gray-5;
+}

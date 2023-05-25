@@ -2,12 +2,13 @@ import React from 'react';
 import "./Profile.scss";
 import Navigation from '../components/Navigation/Navigation';
 import PrimaryButton from '../components/Button/Primary-Button';
-import Avatar from"../assets/CFAvatar.png";
+import Tag from '../components/Tag/Tag';
+import Avatar from "../assets/CFAvatar.png";
 
 function Profile() {
     return (
         <div className="App">
-            <Navigation/>
+            <Navigation page="profile"/>
             <div className="hero-wrapper">
                 <div className="hero">
                     <img src={Avatar} alt=""/>
@@ -16,16 +17,112 @@ function Profile() {
                             <h1>I’m Clara Forrestal</h1>
                             <h2>Senior UX Designer & DesignOps Consultant</h2>
                             <div className="description">
-                                <p>I strive to create exceptional experiences not only for end-users, but also for my colleagues and clients. By eliminating friction across teams, optimizing processes, and establishing practical systems, I actively contribute to the success of my team and the creation of world-class digital products.</p>
-                                <p>I started my career as a front-end developer, building interfaces in React and CSS for my clients. After about a year, I discovered UX and quickly fell in love. Since then, I have been eagerly exploring every facet of the field. Over the past five years, I have evolved into a versatile senior designer, sharing my knowledge and guiding others along the way.</p>
-                                <p>Today, my expertise spans a wide range of UX disciplines, with a focus on design systems, <a href="https://ooux.com/">Object-Oriented UX</a>, DesignOps, and connecting design and development teams.</p>
+                                <p>I strive to create exceptional experiences not only for end-users, but also
+                                    for my colleagues and clients. By eliminating friction across teams, optimizing
+                                    processes, and establishing practical systems, I actively contribute to the
+                                    success of my team and the creation of world-class digital products.</p>
+                                <p>I started my career as a front-end developer, building interfaces in React
+                                    and CSS for my clients. After about a year, I discovered UX and quickly fell in
+                                    love. Since then, I have been eagerly exploring every facet of the field. Over
+                                    the past five years, I have evolved into a versatile senior designer, sharing my
+                                    knowledge and guiding others along the way.</p>
+                                <p>Today, my expertise spans a wide range of UX disciplines, with a focus on
+                                    design systems,
+                                    <a href="https://ooux.com/">Object-Oriented UX</a>, DesignOps, and connecting design and development teams.</p>
                             </div>
                             <PrimaryButton/>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>  
+            <div className='bottom-wrapper'>
+                <div className='white-cards'>
+                    <div className='left'>
+                        <div className='experience-education-wrapper'>
+                            <div className='experience-wrapper'>
+                                <h3>Experience</h3>
+                                <div className='item'>
+                                    <h4>Senior Design Consultant at Endava (formally Levvel)</h4>
+                                    <h5>July 2018 - Present</h5>
+                                    <p>Responsible for product strategy, user experience design, visual design,
+                                        information architecture design, design system creation and management, market
+                                        research, prototyping, and user testing for various clients.</p>
+                                </div>
+                                <div className='item'>
+                                    <h4>Front End Web Developer Intern at Airtight Design</h4>
+                                    <h5>Summer 2017</h5>
+                                    <p>Responsible for building and styling functional front end components for
+                                        clients’ customer facing websites.</p>
+                                </div>
+                            </div>
+                            <div className='education-wrapper'>
+                                <h3>Education</h3>
+                                <div className='item'>
+                                    <h4>Duke University</h4>
+                                    <h5>August 2014 - May 2018</h5>
+                                    <p>B.S. in Computer Science, Minor in Visual Media Studies</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='contact-wrapper'>
+                            <h3>Contact Me</h3>
+
+                            <p>Email: clara.forrestal@gmail.com</p>
+                            <p>LinkedIn: @claraforrestal</p>
+
+                        </div>
+                    </div>
+
+                    <div className='right'>
+                        <div className='skills-tools-wrapper'>
+                            <h4>Skills</h4>
+                            <div className='tags'>
+                                <Tag text="Design Systems" iconPath="/" type="skill"/>
+                                <Tag text="DesignOps" iconPath="/" type="skill"/>
+                                <Tag text="Information Architecture" iconPath="/" type="skill"/>
+                                <Tag text="Product Strategy" iconPath="/" type="skill"/>
+                                <Tag text="Design Audit" iconPath="/" type="skill"/>
+                                <Tag text="Object Mapping" iconPath="/" type="skill"/>
+                                <Tag text="Interaction Design" iconPath="/" type="skill"/>
+                                <Tag text="Wireframing" iconPath="/" type="skill"/>
+                                <Tag text="UI Design" iconPath="/" type="skill"/>
+                                <Tag text="Prototyping" iconPath="/" type="skill"/>
+                                <Tag text="Development Handoff" iconPath="/" type="skill"/>
+                                <Tag text="Usability Testing" iconPath="/" type="skill"/>
+                                <Tag text="Ideation Sessions" iconPath="/" type="skill"/>
+                                <Tag text="Workshop Facilitation" iconPath="/" type="skill"/>
+                                <Tag text="Journey Mapping" iconPath="/" type="skill"/>
+                                <Tag text="User Interviews" iconPath="/" type="skill"/>
+                                <Tag text="Market Analysis" iconPath="/" type="skill"/>
+                                <Tag text="Surveys" iconPath="/" type="skill"/>
+                                <Tag text="Requirements Gathering" iconPath="/" type="skill"/>
+                            </div>
+                            <h4>Tools</h4>
+                            <div className='tags'>
+                                <Tag text="Figma" type="tool"/>
+                                <Tag text="FigJam" type="tool"/>
+                                <Tag text="Miro" type="tool"/>
+                                <Tag text="Sketch" type="tool"/>
+                                <Tag text="Invision" type="tool"/>
+                                <Tag text="Notion" type="tool"/>
+                                <Tag text="Trello" type="tool"/>
+                                <Tag text="Jira" type="tool"/>
+                                <Tag text="Confluence" type="tool"/>
+                                <Tag text="CSS / LESS / SASS" type="tool"/>
+                                <Tag text="React.js" type="tool"/>
+                                <Tag text="Angular.js" type="tool"/>
+                                <Tag text="Git" type="tool"/>
+                                <Tag text="Microsoft Office" type="tool"/>
+                                <Tag text="Google Suite" type="tool"/>
+                                <Tag text="Dropbox" type="tool"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     );
 }
 

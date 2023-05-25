@@ -5,6 +5,11 @@
     display: flex;
     justify-content: space-between;
     padding: 32px 64px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    max-width: 1440px;
 
     .logo {
         height: 24px;
@@ -29,4 +34,8 @@
             }
         }
     }
+}
+
+.navbar.profile-page-hero {
+    background-color: transparent;
 }
