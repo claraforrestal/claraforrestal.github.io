@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import "./App.css";
+import "./App.scss";
 //Import all needed Component for this tutorial
-import Home from "./pages/Home";
-import MyWork from "./pages/MyWork";
+import Profile from "./pages/Profile";
 import {
   BrowserRouter as Router,
   Route,
@@ -13,8 +12,8 @@ class App extends Component {
     return (
       <Router>
        {/*All our Routes goes here!*/}
-        <Route exact path="/" component={Home} />
-        <Route exact path="/mywork" component={MyWork} />
+        <Route exact path="/" component={Profile} />
+        {/* <Route exact path="/mywork" component={MyWork} /> */}
       </Router>
     );
   }
