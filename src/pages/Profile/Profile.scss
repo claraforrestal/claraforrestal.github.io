@@ -228,3 +228,23 @@
 
     }
 }
+
+@media only screen and (max-width: 1280px) {
+    .App .hero-wrapper .hero {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+
+        img {
+            display: none;
+        }
+    }
+
+    .bottom-wrapper#bottom {
+        padding: 0 24px;
+
+        .white-cards {
+        flex-direction: column;
+    }
+    }
+}
