@@ -11,7 +11,7 @@ function Profile() {
             <Navigation page="profile"/>
             <div className="hero-wrapper">
                 <div className="hero">
-                    <img src={Avatar} alt=""/>
+                    <img className='avatar' src={Avatar} alt="Clara Forrestal Avatar image"/>
                     <div className="right">
                         <div className="hero-text">
                             <h1>I’m Clara Forrestal</h1>
@@ -82,7 +82,9 @@ function Profile() {
                                 <Tag text="DesignOps" type="skill"/>
                                 <Tag text="Information Architecture" type="skill"/>
                                 <Tag text="Product Strategy" type="skill"/>
+                                <Tag text="System Design" type="skill"/>
                                 <Tag text="Design Audit" type="skill"/>
+                                <Tag text="OOUX" type="skill"/>
                                 <Tag text="Object Mapping" type="skill"/>
                                 <Tag text="Interaction Design" type="skill"/>
                                 <Tag text="Wireframing" type="skill"/>

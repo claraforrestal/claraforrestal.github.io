@@ -230,15 +230,18 @@
 }
 
 @media only screen and (max-width: 1280px) {
-    .App .hero-wrapper .hero {
+    .App .hero-wrapper {
+        padding: 128px 24px 24px;
+        
+        .hero {
         flex-direction: column;
         padding-left: 0;
         padding-right: 0;
 
-        img {
+        .avatar {
             display: none;
         }
-    }
+    }}
 
     .bottom-wrapper#bottom {
         padding: 0 24px;
