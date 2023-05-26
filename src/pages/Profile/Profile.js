@@ -11,7 +11,7 @@ function Profile() {
             <Navigation page="profile"/>
             <div className="hero-wrapper">
                 <div className="hero">
-                    <img src={Avatar} alt=""/>
+                    <img className='avatar' src={Avatar} alt="Clara Forrestal Avatar image"/>
                     <div className="right">
                         <div className="hero-text">
                             <h1>I’m Clara Forrestal</h1>
