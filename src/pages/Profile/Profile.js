@@ -27,14 +27,13 @@ function Profile() {
                                     the past five years, I have evolved into a versatile senior designer, sharing my
                                     knowledge and guiding others along the way.</p>
                                 <p>Today, my expertise spans a wide range of UX disciplines, with a focus on
-                                    design systems,
-                                    <a href="https://ooux.com/">Object-Oriented UX</a>, DesignOps, and connecting design and development teams.</p>
+                                    design systems,&nbsp;
+                                    <a href="https://ooux.com/">Object-Oriented UX</a>, <a href="https://www.nngroup.com/articles/design-operations-101/">DesignOps</a>, and connecting design and development teams.</p>
                             </div>
                             <PrimaryButton text="Download Resume" href={process.env.PUBLIC_URL + "/ClaraForrestalResume.pdf"}/>
                         </div>
                     </div>
                 </div>
-                <a className='scroll-arrow' href="#bottom"><span></span></a>
             </div>
             <div id="bottom" className='bottom-wrapper'>
                 <div className='white-cards'>

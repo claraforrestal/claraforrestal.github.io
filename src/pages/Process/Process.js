@@ -15,7 +15,7 @@ function Process() {
                     outline my current ideal process as a framework for successful project
                     execution.</p>
                 <div className='process-cards'>
-                    <div className='process-card-discovery'>
+                    <div className='process-card'>
                         <h2>1. Discovery</h2>
                         <p>Standard methods for UX discovery have served me well on many client
                             projects. Discovery workshops, stakeholder interviews, and market research
@@ -60,7 +60,7 @@ function Process() {
                         </div>
                     </div>
 
-                    <div className='process-card-research'>
+                    <div className='process-card'>
                         <h2>2. Research & Planning</h2>
                         <p>I conduct qualitative and quantitative research methods, including user
                             interviews, usability testing, surveys, and competitive analysis. I also utilize
@@ -106,7 +106,7 @@ function Process() {
                         </div>
                     </div>
 
-                    <div className='process-card-design'>
+                    <div className='process-card'>
                         <h2>3. Iterative Design</h2>
                         <p>Utilizing the prioritized object map, I create sketches and wireframes of the
                             experience. This allows me to work through the layout of screens and flows.

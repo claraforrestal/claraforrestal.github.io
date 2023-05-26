@@ -26,9 +26,10 @@ function Projects() {
                 <div className='projects-cards'>
                     <div className='projects-card'>
                         <h2>Reimagining the inflight experience for a major international airline</h2>
-                        <h3>My Role: Senior UX Designer</h3>
+
                         <div className='projects-card-details'>
                             <div className='left'>
+                                <h3>My Role: Senior UX Designer</h3>
                                 <ul>
                                     <li>Developed innovative ideas to improve the airline's inflight experience and
                                         increase revenue.</li>
@@ -61,10 +62,10 @@ function Projects() {
                     </div>
 
                     <div className='projects-card'>
-                        <h2>My Role: Design System Lead</h2>
-                        <h3>My Role: Senior UX Designer</h3>
+                        <h2>Design System maintenance and documentation site for Global Logistics Company</h2>
                         <div className='projects-card-details'>
                             <div className='left'>
+                                <h3>My Role: Design System Lead</h3>
                                 <ul>
                                     <li>Designed and maintained styles, patterns, and components of the design
                                         system in Figma.</li>
@@ -98,9 +99,10 @@ function Projects() {
 
                     <div className='projects-card'>
                         <h2>Mobile Application for National Auto Insurance Company</h2>
-                        <h3>My Role: UX Designer</h3>
+
                         <div className='projects-card-details'>
                             <div className='left'>
+                                <h3>My Role: UX Designer</h3>
                                 <ul>
                                     <li>Planned and facilitated a product discovery workshop that informed the
                                         product roadmap.</li>
@@ -144,9 +146,9 @@ function Projects() {
                     <div className='projects-card'>
                         <h2>File Migration to Figma, Pattern Audit, and Design System creation for
                             National Bank</h2>
-                        <h3>My Role: Design System Subject Matter Expert</h3>
                         <div className='projects-card-details'>
                             <div className='left'>
+                                <h3>My Role: Design System Subject Matter Expert</h3>
                                 <ul>
                                     <li>Performed a full audit of all design patterns across several siloed design
                                         teams.</li>
@@ -181,9 +183,10 @@ function Projects() {
 
                     <div className='projects-card'>
                         <h2>CSS Implementation for Zelle Integration Tool</h2>
-                        <h3>My Role: UI Developer</h3>
+
                         <div className='projects-card-details'>
                             <div className='left'>
+                                <h3>My Role: UI Developer</h3>
                                 <ul>
                                     <li>Conducted user interviews and research synthesis in order to better
                                         understand user needs and pain points.</li>
@@ -218,9 +221,10 @@ function Projects() {
 
                     <div className='projects-card'>
                         <h2>Responsive E-Commerce Platform for Dental Supplier</h2>
-                        <h3>My Role: React Developer, UX Designer</h3>
+
                         <div className='projects-card-details'>
                             <div className='left'>
+                                <h3>My Role: React Developer, UX Designer</h3>
                                 <ul>
                                     <li>Conducted user interviews and research synthesis in order to better
                                         understand user needs and pain points.</li>

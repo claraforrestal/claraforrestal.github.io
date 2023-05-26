@@ -1,4 +1,10 @@
+@use "./styles/colors.scss";
+
 .App {
   text-align: left;
   overflow-x: hidden;
+}
+
+a {
+  color: colors.$blue-2;
 }
