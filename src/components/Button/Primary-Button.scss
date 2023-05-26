@@ -1,6 +1,6 @@
 @use "../../styles/colors" as colors;
 
-button {
+a.primary-button {
     /* Auto layout */
 
     display: flex;
@@ -26,6 +26,7 @@ button {
     align-self: flex-start;
 
     text-transform: uppercase;
+    text-decoration: none;
 
     /* White */
 

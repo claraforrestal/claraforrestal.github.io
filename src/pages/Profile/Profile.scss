@@ -1,13 +1,13 @@
-@use "../styles/colors" as colors;
+@use "../../styles/colors" as colors;
 
 .App {
     background-color: colors.$white;
+    scroll-behavior: smooth;
     .hero-wrapper {
         /* Blue/10 */
         background: colors.$blue-10;
-        background: radial-gradient(99.71% 430.84% at 18.47% 16.18%, #E4EDF1 0%, rgba(156, 188, 205, 0.4) 19.63%, rgba(124, 166, 189, 0.4) 43.05%, rgba(204, 221, 229, 0.5) 69.36%, rgba(228, 237, 241, 0) 100%);
-        padding: 56px;
-        padding-top: 88px;
+        // background: radial-gradient(99.71% 430.84% at 18.47% 16.18%, #E4EDF1 0%, rgba(156, 188, 205, 0.4) 19.63%, rgba(124, 166, 189, 0.4) 43.05%, rgba(204, 221, 229, 0.5) 69.36%, rgba(228, 237, 241, 0) 100%);
+        padding: 88px 56px 56px;
 
         .hero {
             /* Auto layout */
@@ -17,8 +17,6 @@
             justify-content: center;
             padding: 64px;
             gap: 56px;
-
-            // height: 100vh;
 
             &-text {
                 max-width: 896px;
@@ -77,9 +75,32 @@
 
             }
         }
+        a.scroll-arrow {
+            position: absolute;
+            bottom: 104px;
+            left: 50%;
+            z-index: 2;
+            display: inline-block;
+            -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            span {
+                position: absolute;
+                width: 24px;
+                height: 24px;
+                margin-left: -12px;
+                border-left: 2px solid #fff;
+                border-bottom: 2px solid #fff;
+                -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+                box-sizing: border-box;
+            }
+        }
     }
 
-    .bottom-wrapper {
+    .bottom-wrapper#bottom {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -150,7 +171,6 @@
             align-items: flex-start;
             padding: 16px;
             gap: 24px;
-
 
             h4 {
                 margin: 0;

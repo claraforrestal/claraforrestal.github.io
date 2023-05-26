@@ -1,0 +1,122 @@
+@use "../../styles/colors" as colors;
+
+.Process {
+
+    .process {
+        &-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0 64px 64px;
+            gap: 32px;
+            margin-top: 88px;
+
+            h1 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 39px;
+                /* identical to box height */
+
+                /* Gray/1 */
+
+                color: colors.$gray-1;
+                margin: 0;
+                margin-top: 64px;
+            }
+
+            .description {
+                font-family: 'Inter';
+                font-style: italic;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+
+                /* Gray/1 */
+
+                color: colors.$gray-1;
+                margin: 0;
+            }
+        }
+
+        &-cards {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0;
+            gap: 24px;
+
+            > * {
+                flex: 1;
+            }
+        }
+
+        &-card-design,
+        &-card-discovery,
+        &-card-research {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 16px;
+            gap: 16px;
+
+            /* Gray/6 */
+
+            border: 2px solid colors.$gray-6;
+            border-radius: 8px;
+
+            h2 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 29px;
+                /* identical to box height */
+
+                /* Blue/1 */
+
+                color: colors.$blue-1;
+                margin: 0;
+            }
+
+            h3 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 22px;
+                /* identical to box height */
+
+                /* Gray/1 */
+
+                color: colors.$gray-1;
+                margin: 0;
+            }
+
+            p {
+                margin: 0;
+            }
+
+            ul {
+                margin: 0;
+                padding-left: 16px;
+            }
+
+            p,
+            ul li {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+
+                /* Gray/1 */
+
+                color: colors.$gray-1;
+            }
+        }
+
+    }
+
+}
