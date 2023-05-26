@@ -109,3 +109,20 @@
     }
 
 }
+
+
+@media only screen and (max-width: 1280px) {
+    .Process {
+
+        .process-wrapper{
+            padding: 24px;
+
+            h1{
+                margin: 0;
+            }
+        }
+        .process-cards {
+            flex-direction: column;
+        }
+    }
+}
