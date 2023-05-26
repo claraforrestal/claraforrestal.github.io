@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.72b3591b.css",
-    "main.js": "/static/js/main.64393bce.js",
+    "main.css": "/static/css/main.5a5429f3.css",
+    "main.js": "/static/js/main.16879b56.js",
     "static/js/787.d8c47fce.chunk.js": "/static/js/787.d8c47fce.chunk.js",
-    "static/media/airline.png": "/static/media/airline.4cef239a2a4b43b331fb.png",
-    "static/media/dental.png": "/static/media/dental.5aae57a4c39c6fac5b4b.png",
-    "static/media/insurance.png": "/static/media/insurance.dee8959fb9a9b296c64c.png",
-    "static/media/zelle.png": "/static/media/zelle.e9ff7589515c422fa414.png",
-    "static/media/bank.png": "/static/media/bank.afda01957ae7556d458c.png",
-    "static/media/logistics.png": "/static/media/logistics.cbd6c3e97c0400e9e887.png",
+    "static/media/bank.png": "/static/media/bank.8b904d5fd6b1f4c3ff71.png",
+    "static/media/insurance.png": "/static/media/insurance.556821b2025f3da476f4.png",
+    "static/media/dental.png": "/static/media/dental.a86d190c31b49a938b22.png",
+    "static/media/zelle.png": "/static/media/zelle.019c0122c0c8d6f38dbb.png",
+    "static/media/logistics.png": "/static/media/logistics.e04ec8b44845e6e33649.png",
+    "static/media/airline.png": "/static/media/airline.12e9b69ba91eb4174cdc.png",
     "static/media/CFAvatar.png": "/static/media/CFAvatar.7179d67c002811690d3f.png",
     "index.html": "/index.html",
-    "main.72b3591b.css.map": "/static/css/main.72b3591b.css.map",
-    "main.64393bce.js.map": "/static/js/main.64393bce.js.map",
+    "main.5a5429f3.css.map": "/static/css/main.5a5429f3.css.map",
+    "main.16879b56.js.map": "/static/js/main.16879b56.js.map",
     "787.d8c47fce.chunk.js.map": "/static/js/787.d8c47fce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72b3591b.css",
-    "static/js/main.64393bce.js"
+    "static/css/main.5a5429f3.css",
+    "static/js/main.16879b56.js"
   ]
 }
