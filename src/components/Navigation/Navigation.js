@@ -11,7 +11,7 @@ function Navigation(props){
             <ul className="nav-links">
                 <li><Link to="/">Profile</Link></li>
                 <li><Link to="/process">Process</Link></li>
-                {/* <li><Link to="/projects">Projects</Link></li> */}
+                <li><Link to="/projects">Projects</Link></li>
             </ul>
         </nav>
     );
