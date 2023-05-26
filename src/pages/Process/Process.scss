@@ -49,19 +49,16 @@
             }
         }
 
-        &-card-design,
-        &-card-discovery,
-        &-card-research {
+        &-card {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
             padding: 16px;
             gap: 16px;
 
-            /* Gray/6 */
-
             border: 2px solid colors.$gray-6;
             border-radius: 8px;
+            align-self: stretch;
 
             h2 {
                 font-family: 'Inter';
