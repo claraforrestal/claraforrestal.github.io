@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.764e0af6.css",
+    "main.css": "/static/css/main.72b3591b.css",
     "main.js": "/static/js/main.64393bce.js",
     "static/js/787.d8c47fce.chunk.js": "/static/js/787.d8c47fce.chunk.js",
     "static/media/airline.png": "/static/media/airline.4cef239a2a4b43b331fb.png",
@@ -11,12 +11,12 @@
     "static/media/logistics.png": "/static/media/logistics.cbd6c3e97c0400e9e887.png",
     "static/media/CFAvatar.png": "/static/media/CFAvatar.7179d67c002811690d3f.png",
     "index.html": "/index.html",
-    "main.764e0af6.css.map": "/static/css/main.764e0af6.css.map",
+    "main.72b3591b.css.map": "/static/css/main.72b3591b.css.map",
     "main.64393bce.js.map": "/static/js/main.64393bce.js.map",
     "787.d8c47fce.chunk.js.map": "/static/js/787.d8c47fce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.764e0af6.css",
+    "static/css/main.72b3591b.css",
     "static/js/main.64393bce.js"
   ]
 }
