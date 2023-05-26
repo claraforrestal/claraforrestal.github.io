@@ -82,7 +82,9 @@ function Profile() {
                                 <Tag text="DesignOps" type="skill"/>
                                 <Tag text="Information Architecture" type="skill"/>
                                 <Tag text="Product Strategy" type="skill"/>
+                                <Tag text="System Design" type="skill"/>
                                 <Tag text="Design Audit" type="skill"/>
+                                <Tag text="OOUX" type="skill"/>
                                 <Tag text="Object Mapping" type="skill"/>
                                 <Tag text="Interaction Design" type="skill"/>
                                 <Tag text="Wireframing" type="skill"/>
