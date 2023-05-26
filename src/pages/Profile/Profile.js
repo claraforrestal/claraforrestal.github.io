@@ -1,9 +1,9 @@
 import React from 'react';
 import "./Profile.scss";
-import Navigation from '../components/Navigation/Navigation';
-import PrimaryButton from '../components/Button/Primary-Button';
-import Tag from '../components/Tag/Tag';
-import Avatar from "../assets/CFAvatar.png";
+import Navigation from '../../components/Navigation/Navigation';
+import PrimaryButton from '../../components/Button/Primary-Button';
+import Tag from '../../components/Tag/Tag';
+import Avatar from "../../assets/CFAvatar.png";
 
 function Profile() {
     return (

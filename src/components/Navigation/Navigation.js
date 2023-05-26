@@ -10,7 +10,7 @@ function Navigation(props){
             <img className="logo" src={Logo} alt=""/>
             <ul className="nav-links">
                 <li><Link to="/">Profile</Link></li>
-                {/* <li><Link to="/process">Process</Link></li> */}
+                <li><Link to="/process">Process</Link></li>
                 {/* <li><Link to="/projects">Projects</Link></li> */}
             </ul>
         </nav>
