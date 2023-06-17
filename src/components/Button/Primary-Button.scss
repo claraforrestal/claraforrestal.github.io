@@ -3,12 +3,13 @@
 a.primary-button {
     /* Auto layout */
 
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     flex-basis: auto;
     align-items: center;
     padding: 16px;
     gap: 8px;
+    width: min-content;
 
 
     /* Blue/1 */
@@ -31,6 +32,11 @@ a.primary-button {
     /* White */
 
     color: #FFFFFF;
+
+    .primary-button-label{
+        display: inline-flex;
+        width: min-content;
+    }
 
 
     img {
