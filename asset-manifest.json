@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9a24c011.css",
-    "main.js": "/static/js/main.9a5289f4.js",
+    "main.css": "/static/css/main.898c88a5.css",
+    "main.js": "/static/js/main.8e4c1923.js",
     "static/js/787.d8c47fce.chunk.js": "/static/js/787.d8c47fce.chunk.js",
     "static/media/bank.png": "/static/media/bank.8b904d5fd6b1f4c3ff71.png",
     "static/media/insurance.png": "/static/media/insurance.556821b2025f3da476f4.png",
@@ -11,12 +11,12 @@
     "static/media/airline.png": "/static/media/airline.12e9b69ba91eb4174cdc.png",
     "static/media/CFAvatar.png": "/static/media/CFAvatar.7179d67c002811690d3f.png",
     "index.html": "/index.html",
-    "main.9a24c011.css.map": "/static/css/main.9a24c011.css.map",
-    "main.9a5289f4.js.map": "/static/js/main.9a5289f4.js.map",
+    "main.898c88a5.css.map": "/static/css/main.898c88a5.css.map",
+    "main.8e4c1923.js.map": "/static/js/main.8e4c1923.js.map",
     "787.d8c47fce.chunk.js.map": "/static/js/787.d8c47fce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a24c011.css",
-    "static/js/main.9a5289f4.js"
+    "static/css/main.898c88a5.css",
+    "static/js/main.8e4c1923.js"
   ]
 }
