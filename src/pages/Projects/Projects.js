@@ -25,7 +25,7 @@ function Projects() {
                     empowering clients to modernize their design teams.</p>
                 <div className='projects-cards'>
                     <div className='projects-card'>
-                        <h2>Reimagining the inflight experience for a major international airline</h2>
+                        <h2>Reimagining the inflight experience for a international airline</h2>
 
                         <div className='projects-card-details'>
                             <div className='left'>
@@ -62,7 +62,7 @@ function Projects() {
                     </div>
 
                     <div className='projects-card'>
-                        <h2>Design System maintenance and documentation site for Global Logistics Company</h2>
+                        <h2>Design System maintenance and documentation site for global logistics company</h2>
                         <div className='projects-card-details'>
                             <div className='left'>
                                 <h3>My Role: Design System Lead</h3>
@@ -98,7 +98,7 @@ function Projects() {
                     </div>
 
                     <div className='projects-card'>
-                        <h2>Mobile Application for National Auto Insurance Company</h2>
+                        <h2>Mobile application for national auto insurance company</h2>
 
                         <div className='projects-card-details'>
                             <div className='left'>
@@ -144,8 +144,8 @@ function Projects() {
                     </div>
 
                     <div className='projects-card'>
-                        <h2>File Migration to Figma, Pattern Audit, and Design System creation for
-                            National Bank</h2>
+                        <h2>File migration to Figma, pattern audit, and design system creation for
+                            national bank</h2>
                         <div className='projects-card-details'>
                             <div className='left'>
                                 <h3>My Role: Design System Subject Matter Expert</h3>
@@ -182,7 +182,7 @@ function Projects() {
                     </div>
 
                     <div className='projects-card'>
-                        <h2>CSS Implementation for Zelle Integration Tool</h2>
+                        <h2>CSS implementation for Zelle integration tool</h2>
 
                         <div className='projects-card-details'>
                             <div className='left'>
@@ -220,7 +220,7 @@ function Projects() {
                     </div>
 
                     <div className='projects-card'>
-                        <h2>Responsive E-Commerce Platform for Dental Supplier</h2>
+                        <h2>Responsive e-commerce platform for dental supplier</h2>
 
                         <div className='projects-card-details'>
                             <div className='left'>
