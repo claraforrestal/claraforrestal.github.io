@@ -125,7 +125,7 @@ function Profile() {
                         </div>
                     </div>
                 </div>
-                <div className='cta-banner'>
+                {/* <div className='cta-banner'>
                     <div className='cta-banner-text'>
                         <h2>The Key to Success</h2>
                         <p>Unlock the full potential of my skills and experience! Download my resume now
@@ -137,7 +137,7 @@ function Profile() {
                     <PrimaryButton
                         text="Download Resume"
                         href={process.env.PUBLIC_URL + "/ClaraForrestalResume.pdf"}/></div>
-                </div>
+                </div> */}
             </div>
         </div>
     );
