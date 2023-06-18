@@ -28,7 +28,7 @@ function Profile() {
                                     knowledge and guiding others along the way.</p>
                                 <p>Today, my expertise spans a wide range of UX disciplines, with a focus on
                                     design systems,&nbsp;
-                                    <a href="https://ooux.com/">Object-Oriented UX</a>,
+                                    <a href="https://ooux.com/">Object-Oriented UX</a>,&nbsp;
                                     <a href="https://www.nngroup.com/articles/design-operations-101/">DesignOps</a>, and connecting design and development teams.</p>
                             </div>
                             <PrimaryButton
@@ -125,7 +125,7 @@ function Profile() {
                         </div>
                     </div>
                 </div>
-                {/* <div className='cta-banner'>
+                <div className='cta-banner'>
                     <div className='cta-banner-text'>
                         <h2>The Key to Success</h2>
                         <p>Unlock the full potential of my skills and experience! Download my resume now
@@ -137,7 +137,7 @@ function Profile() {
                     <PrimaryButton
                         text="Download Resume"
                         href={process.env.PUBLIC_URL + "/ClaraForrestalResume.pdf"}/></div>
-                </div> */}
+                </div>
             </div>
         </div>
     );
