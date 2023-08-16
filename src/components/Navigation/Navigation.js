@@ -8,11 +8,11 @@ function Navigation(props){
     return (
         <nav className={`navbar ${props.page}-page-hero`} data-component="Navigation">
             <Link className="logo-link" to="/"><img className="logo" src={Logo} alt=""/></Link>
-            <ul className="nav-links">
+            {/* <ul className="nav-links">
                 <li><NavLink exact activeClassName='is-active' to="/">Profile</NavLink></li>
                 <li><NavLink activeClassName='is-active' to="/process">Process</NavLink></li>
                 <li><NavLink activeClassName='is-active' to="/projects">Projects</NavLink></li>
-            </ul>
+            </ul> */}
         </nav>
     );
 }

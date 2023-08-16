@@ -2,40 +2,30 @@
 
 a.primary-button {
     /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    flex-basis: auto;
-    align-items: center;
+    display: inline-flex;
     padding: 16px;
+    justify-content: center;
+    align-items: center;
     gap: 8px;
 
+    background: #EE4E2F;
 
-    /* Blue/1 */
-    background: colors.$blue-1;
-
-    border: 0px;
+    border: 0;
     border-radius: 4px;
 
-    font-family: 'Inter';
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
-    /* identical to box height */
+    line-height: normal;
 
-    align-self: flex-start;
-
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-decoration: none;
 
-    /* White */
-
-    color: #FFFFFF;
-
-    .primary-button-label{
+    .primary-button-label {
         min-width: 145px;
     }
-
 
     img {
         height: 14px;
