@@ -125,19 +125,6 @@ function Profile() {
                         </div>
                     </div>
                 </div>
-                <div className='cta-banner'>
-                    <div className='cta-banner-text'>
-                        <h2>The Key to Success</h2>
-                        <p>Unlock the full potential of my skills and experience! Download my resume now
-                            for a comprehensive overview of my qualifications. Discover how my expertise can
-                            add value to your projects and organizations. Let's take the next step together
-                            and achieve greatness. Get your copy of my resume today!</p>
-                    </div>
-                    <div className='button-wrapper'>
-                    <PrimaryButton
-                        text="Download Resume"
-                        href={process.env.PUBLIC_URL + "/ClaraForrestalResume.pdf"}/></div>
-                </div>
             </div>
         </div>
     );
