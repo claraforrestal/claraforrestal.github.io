@@ -38,14 +38,16 @@ function Profile() {
                 <h5>Recent presentations</h5>
                 <div className='presentation-cards'>
                     <PresentationCard
+                        link="https://www.figma.com/proto/DUtCK4076Xdl0mhaWtoJ6D/Presentation%3A-How-to-tidy-up-your-Design-System?page-id=15%3A2&type=design&node-id=15-3&viewport=15536%2C489%2C0.5&t=hgRMVd6RaaH5wm4s-8&scaling=contain&starting-point-node-id=15%3A3&hide-ui=1"
                         title="How to tidy up your design system like Marie Kondo"
-                        date="12 Feb 2020"
+                        date="July 2022"
                         topic="Design Systems"/>
                     <PresentationCard
+                        link="https://www.figma.com/proto/4Issal4xPA5PKX4Y1xPI42/Presentation%3A-The-Four-Horsemen-of-Poor-Usability?page-id=15%3A2&type=design&node-id=301-3&viewport=-940%2C0%2C0.06&t=CbdYBoBdObF5u9ev-8&scaling=contain&starting-point-node-id=301%3A17&hide-ui=1"
                         title="Object-Oriented UX:
                             The four horsemen
                             of poor usability"
-                        date="12 Feb 2020"
+                        date="July 2023"
                         topic="OOUX"/>
                 </div>
             </div>

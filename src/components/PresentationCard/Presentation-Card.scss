@@ -1,37 +1,44 @@
 
-.presentation-card {
+a.presentation-card-link {
+    width: 45%;
+    text-decoration: none;
     display: flex;
-    padding: 24px 20px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
 
-    border-radius: 4px;
-    background: #FFF;
-    box-shadow: 0 4px 10px 0 rgba(187, 225, 250, 0.25);
-
-    max-width: 45%;//266px;
-
-    h3.title {
-        color: #000;
-        font-family: Inter;
-        font-size: 22px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        margin: 0;
-    }
-
-    .metadata {
-        color: #4D4D4D;
+    .presentation-card {
         display: flex;
-        align-items: center;
-        gap: 24px;
+        padding: 24px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
 
-        .divider {
-            border-left: 1px solid #4D4D4D;
-            width: 0;
-            height: 21px;
+        border-radius: 4px;
+        background: #FFF;
+        box-shadow: 0 4px 10px 0 rgba(187, 225, 250, 0.25);
+
+        width: 100%;
+
+        h3.title {
+            color: #000;
+            font-family: Inter;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin: 0;
+            max-width: 266px;
+        }
+
+        .metadata {
+            color: #4D4D4D;
+            display: flex;
+            align-items: center;
+            gap: 24px;
+
+            .divider {
+                border-left: 1px solid #4D4D4D;
+                width: 0;
+                height: 21px;
+            }
         }
     }
 }
