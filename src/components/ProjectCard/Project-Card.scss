@@ -1,0 +1,53 @@
+.project-card {
+    margin-bottom: 40px;
+
+    h2.title {
+        color: #000;
+        font-family: Inter;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        align-self: stretch;
+        margin: 0 0 24px;
+    }
+
+    .project-card-contents {
+        display: flex;
+        align-items: flex-start;
+        gap: 24px;
+        align-self: stretch;
+
+        img {
+            width: 246px;
+            height: 180px;
+        }
+
+        .project-card-text {
+
+            .role {
+                color: #000;
+                font-family: Inter;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                align-self: stretch;
+            }
+
+            ul {
+                padding-left: 20px;
+
+                li {
+                    color: #4D4D4D;
+                    font-family: Inter;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+
+}
