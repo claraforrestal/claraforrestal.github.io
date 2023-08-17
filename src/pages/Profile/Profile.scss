@@ -5,15 +5,43 @@
 
 .hero {
     padding: 88px 0;
+
+    h1 {
+        color: #000;
+        font-family: Inter;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        margin: 0;
+        margin-bottom: 8px;
+    }
+
+    h4 {
+        color: #4D4D4D;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0;
+        margin-bottom: 24px;
+    }
+
+    p {
+        color: #4D4D4D;
+        margin: 0;
+        margin-bottom: 40px;
+    }
 }
 
 h5 {
     color: #000;
     font-family: Inter;
-    font-size: 22px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 60px;
+    line-height: normal;
     margin: 0;
 }
 

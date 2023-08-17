@@ -10,7 +10,7 @@ function PresentationCard(props) {
                 <span className='divider'></span>
                 <span className='topic'>{props.topic}</span>
             </div>
-            <p>{props.description}</p>
+            { props.description && (<p>{props.description}</p>)}
         </div>
     );
 }

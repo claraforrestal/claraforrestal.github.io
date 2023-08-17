@@ -10,12 +10,12 @@
     background: #FFF;
     box-shadow: 0 4px 10px 0 rgba(187, 225, 250, 0.25);
 
-    flex: 1 1 auto;
+    max-width: 45%;//266px;
 
     h3.title {
         color: #000;
         font-family: Inter;
-        font-size: 26px;
+        font-size: 22px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -23,6 +23,7 @@
     }
 
     .metadata {
+        color: #4D4D4D;
         display: flex;
         align-items: center;
         gap: 24px;
