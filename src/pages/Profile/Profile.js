@@ -33,82 +33,84 @@ function Profile() {
                         className='avatar hero-left'
                         src={Avatar}
                         alt="Clara Forrestal Avatar image"/>
-            </div>
-            <div className='recent-presentations'>
-                <h5>Recent presentations</h5>
-                <div className='presentation-cards'>
-                    <PresentationCard
-                        link="https://www.figma.com/proto/DUtCK4076Xdl0mhaWtoJ6D/Presentation%3A-How-to-tidy-up-your-Design-System?page-id=15%3A2&type=design&node-id=15-3&viewport=15536%2C489%2C0.5&t=hgRMVd6RaaH5wm4s-8&scaling=contain&starting-point-node-id=15%3A3&hide-ui=1"
-                        title="How to tidy up your design system like Marie Kondo"
-                        date="July 2022"
-                        topic="Design Systems"/>
-                    <PresentationCard
-                        link="https://www.figma.com/proto/4Issal4xPA5PKX4Y1xPI42/Presentation%3A-The-Four-Horsemen-of-Poor-Usability?page-id=15%3A2&type=design&node-id=301-3&viewport=-940%2C0%2C0.06&t=CbdYBoBdObF5u9ev-8&scaling=contain&starting-point-node-id=301%3A17&hide-ui=1"
-                        title="Object-Oriented UX:
+                </div>
+                <div className='recent-presentations-wrapper'>
+                    <div className='recent-presentations'>
+                        <h5>Recent presentations</h5>
+                        <div className='presentation-cards'>
+                            <PresentationCard
+                                link="https://www.figma.com/proto/DUtCK4076Xdl0mhaWtoJ6D/Presentation%3A-How-to-tidy-up-your-Design-System?page-id=15%3A2&type=design&node-id=15-3&viewport=15536%2C489%2C0.5&t=hgRMVd6RaaH5wm4s-8&scaling=contain&starting-point-node-id=15%3A3&hide-ui=1"
+                                title="How to tidy up your design system like Marie Kondo"
+                                date="July 2022"
+                                topic="Design Systems"/>
+                            <PresentationCard
+                                link="https://www.figma.com/proto/4Issal4xPA5PKX4Y1xPI42/Presentation%3A-The-Four-Horsemen-of-Poor-Usability?page-id=15%3A2&type=design&node-id=301-3&viewport=-940%2C0%2C0.06&t=CbdYBoBdObF5u9ev-8&scaling=contain&starting-point-node-id=301%3A17&hide-ui=1"
+                                title="Object-Oriented UX:
                             The four horsemen
                             of poor usability"
-                        date="July 2023"
-                        topic="OOUX"/>
+                                date="July 2023"
+                                topic="OOUX"/>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div className='recent-projects'>
-                <h5>Recent projects</h5>
-                <div className='project-cards'>
-                    <ProjectCard
-                        imageAlt="airline seatback experience"
-                        image={Airline}
-                        title="Reimagining the inflight experience for a major international airline"
-                        role="My Role: Senior UX Designer"
-                        bulletOne="Developed innovative ideas to improve the airline's inflight experience and increase revenue."
-                        bulletTwo="Facilitated brainstorming sessions, design thinking exercises, and rapid prototyping to quickly bring ideas to life."
-                        bulletThree="Evaluated each idea based on its feasibility, impact, and alignment with the airline's strategic objectives."
-                        bulletFour="Delivered a prioritized product backlog that development teams could use immediately to plan future releases."/>
-                    <ProjectCard
-                        imageAlt="logistics design system documentation site"
-                        image={Logistics}
-                        title="Design System maintenance and documentation site for Global Logistics Company"
-                        role="My Role: Design System Lead"
-                        bulletOne="Designed and maintained styles, patterns, and components of the design system in Figma."
-                        bulletTwo="Managed a team of 5 developers as they implemented the functional components in React and React Native."
-                        bulletThree="Initiated and lead effort to build a one-stop shop documentation site that enabled both designers and developers access important information about design system patterns and components."/>
-                    <ProjectCard
-                        imageAlt="insurance mobile app"
-                        image={Insurance}
-                        title="Mobile Application for National Auto Insurance Company"
-                        role="My Role: UX Designer"
-                        bulletOne="Planned and facilitated a product discovery workshop that informed the product roadmap."
-                        bulletTwo="Collaborated with the research team to ensure product designs delivered value to the end user and provided the client with a competitive advantage."
-                        bulletThree="Iteratively designed and delivered high-fidelity clickable prototypes in InVision and Sketch covering the full MVP feature set."/>
-                    <ProjectCard
-                        imageAlt="bank design system"
-                        image={Bank}
-                        title="File Migration to Figma, Pattern Audit, and Design System creation for National Bank"
-                        role="My Role: Design System Subject Matter Expert"
-                        bulletOne="Performed a full audit of all design patterns across several siloed design teams."
-                        bulletTwo="Established a Figma design system from scratch, incorporating atomic design principles."
-                        bulletThree="Facilitated weekly calls with stakeholders across the many teams to help reach unified decisions about the patterns, components, and overall design direction."
-                        bulletFour="Implemented new processes for designers to request components or report bugs as needed."/>
-                    <ProjectCard
-                        imageAlt="zelle integration tool"
-                        image={Zelle}
-                        title="CSS Implementation for Zelle Integration Tool"
-                        role="My Role: UI Developer"
-                        bulletOne="Developed functional frontend components and pages using Angular and SASS."
-                        bulletTwo="Ensured that every pixel of the application aligned with the lead designer’s vision."
-                        bulletThree="Utilized my UX expertise to help the development team make decisions."/>
-                    <ProjectCard
-                        imageAlt="e-commerce checkout experience"
-                        image={Ecommerce}
-                        title="Responsive E-Commerce Platform for Dental Supplier"
-                        role="My Role: React Developer & UX Designer"
-                        bulletOne="Conducted user interviews and research synthesis in order to better understand user needs and pain points."
-                        bulletTwo="Developed frontend components and pages using React, Redux, and LESS."
-                        bulletThree="Designed and delivered high-fidelity, clickable prototypes of new features in InVision and Sketch."
-                        bulletFour="Spearheaded a complete redesign of the cart and checkout process to simplify and improve the experience for customers."/>
+                <div className='recent-projects'>
+                    <h5>Recent projects</h5>
+                    <div className='project-cards'>
+                        <ProjectCard
+                            imageAlt="airline seatback experience"
+                            image={Airline}
+                            title="Reimagining the inflight experience for a major international airline"
+                            role="My Role: Senior UX Designer"
+                            bulletOne="Developed innovative ideas to improve the airline's inflight experience and increase revenue."
+                            bulletTwo="Facilitated brainstorming sessions, design thinking exercises, and rapid prototyping to quickly bring ideas to life."
+                            bulletThree="Evaluated each idea based on its feasibility, impact, and alignment with the airline's strategic objectives."
+                            bulletFour="Delivered a prioritized product backlog that development teams could use immediately to plan future releases."/>
+                        <ProjectCard
+                            imageAlt="logistics design system documentation site"
+                            image={Logistics}
+                            title="Design System maintenance and documentation site for Global Logistics Company"
+                            role="My Role: Design System Lead"
+                            bulletOne="Designed and maintained styles, patterns, and components of the design system in Figma."
+                            bulletTwo="Managed a team of 5 developers as they implemented the functional components in React and React Native."
+                            bulletThree="Initiated and lead effort to build a one-stop shop documentation site that enabled both designers and developers access important information about design system patterns and components."/>
+                        <ProjectCard
+                            imageAlt="insurance mobile app"
+                            image={Insurance}
+                            title="Mobile Application for National Auto Insurance Company"
+                            role="My Role: UX Designer"
+                            bulletOne="Planned and facilitated a product discovery workshop that informed the product roadmap."
+                            bulletTwo="Collaborated with the research team to ensure product designs delivered value to the end user and provided the client with a competitive advantage."
+                            bulletThree="Iteratively designed and delivered high-fidelity clickable prototypes in InVision and Sketch covering the full MVP feature set."/>
+                        <ProjectCard
+                            imageAlt="bank design system"
+                            image={Bank}
+                            title="File Migration to Figma, Pattern Audit, and Design System creation for National Bank"
+                            role="My Role: Design System Subject Matter Expert"
+                            bulletOne="Performed a full audit of all design patterns across several siloed design teams."
+                            bulletTwo="Established a Figma design system from scratch, incorporating atomic design principles."
+                            bulletThree="Facilitated weekly calls with stakeholders across the many teams to help reach unified decisions about the patterns, components, and overall design direction."
+                            bulletFour="Implemented new processes for designers to request components or report bugs as needed."/>
+                        <ProjectCard
+                            imageAlt="zelle integration tool"
+                            image={Zelle}
+                            title="CSS Implementation for Zelle Integration Tool"
+                            role="My Role: UI Developer"
+                            bulletOne="Developed functional frontend components and pages using Angular and SASS."
+                            bulletTwo="Ensured that every pixel of the application aligned with the lead designer’s vision."
+                            bulletThree="Utilized my UX expertise to help the development team make decisions."/>
+                        <ProjectCard
+                            imageAlt="e-commerce checkout experience"
+                            image={Ecommerce}
+                            title="Responsive E-Commerce Platform for Dental Supplier"
+                            role="My Role: React Developer & UX Designer"
+                            bulletOne="Conducted user interviews and research synthesis in order to better understand user needs and pain points."
+                            bulletTwo="Developed frontend components and pages using React, Redux, and LESS."
+                            bulletThree="Designed and delivered high-fidelity, clickable prototypes of new features in InVision and Sketch."
+                            bulletFour="Spearheaded a complete redesign of the cart and checkout process to simplify and improve the experience for customers."/>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     );
 }
 
