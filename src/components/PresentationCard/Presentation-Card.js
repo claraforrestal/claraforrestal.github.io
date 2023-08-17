@@ -3,15 +3,18 @@ import './Presentation-Card.scss';
 
 function PresentationCard(props) {
     return (
-        <a className="presentation-card-link" href={props.link} target="_blank" >
+        <a className="presentation-card-link" href={props.link} target="_blank">
             <div className='presentation-card'>
-                <h3 className="title">{props.title}</h3>
-                <div className='metadata'>
-                    <span className='date'>{props.date}</span>
-                    <span className='divider'></span>
-                    <span className='topic'>{props.topic}</span>
+                <div className="presentation-card-text">
+                    <h3 className="title">{props.title}</h3>
+                    <div className='metadata'>
+                        <span className='date'>{props.date}</span>
+                        <span className='divider'></span>
+                        <span className='topic'>{props.topic}</span>
+                    </div>
+                    {props.description && (<p>{props.description}</p>)}
                 </div>
-                {props.description && (<p>{props.description}</p>)}
+                { props.image && (<img className="presentation-card-image" alt={props.imageAlt} src={props.image}/>)}
             </div>
         </a>
     );
