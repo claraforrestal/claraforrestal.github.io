@@ -14,6 +14,8 @@ import Bank from '../../assets/projects/bank.png';
 import Zelle from '../../assets/projects/zelle.png';
 import Ecommerce from '../../assets/projects/ecommerce.png';
 import Website from '../../assets/projects/website.png';
+import CLI from '../../assets/projects/cli.png';
+import DAF from '../../assets/projects/daf.png';
 
 function Profile() {
     return (
@@ -46,8 +48,7 @@ function Profile() {
                                 title="How to tidy up your design system like Marie Kondo"
                                 date="July 2022"
                                 topic="Design Systems"
-                                image={Shelf}
-                                />
+                                image={Shelf}/>
                             <PresentationCard
                                 link="https://www.figma.com/proto/4Issal4xPA5PKX4Y1xPI42/Presentation%3A-The-Four-Horsemen-of-Poor-Usability?page-id=15%3A2&type=design&node-id=301-3&viewport=-940%2C0%2C0.06&t=CbdYBoBdObF5u9ev-8&scaling=contain&starting-point-node-id=301%3A17&hide-ui=1"
                                 title="Object-Oriented UX:
@@ -55,23 +56,31 @@ function Profile() {
                             of poor usability"
                                 date="July 2023"
                                 topic="OOUX"
-                                image={Coffee}
-                                />
+                                image={Coffee}/>
                         </div>
                     </div>
                 </div>
                 <div className='recent-projects'>
                     <h5>Recent projects</h5>
                     <div className='project-cards'>
-                    <ProjectCard
+                        <ProjectCard
                             imageAlt="design system for website redesign"
                             image={Website}
-                            title="Design System creation and maintenance for the redesign of  marketing website"
+                            title="Design system creation and maintenance for the redesign of  marketing website"
                             role="My Role: Design System Lead"
                             bulletOne="Managed a team of 3 designers as we established a design system for an ongoing initiative."
                             bulletTwo="Built Figma styles and components, using auto layout, variables, and advanced properties."
                             bulletThree="Worked closely with developers, project managers, and designers to make decisions and to create a new and improved website on a tight deadline."
                             bulletFour="Incorporated principles of OOUX to inform layout, structure, and information architecture of the site."/>
+                        <ProjectCard
+                            imageAlt=""
+                            image={DAF}
+                            title="Improving the usability and accessibility of a Donor Advised Fund platform"
+                            role="My Role: UX Lead"
+                            bulletOne="Performed an full audit and analysis of the existing digital experiences for customers and for internal employees."
+                            bulletTwo="Lead numerous UX workshops to educate the client on UX best practices and to learn from the stakeholders’ expertise in the financial space."
+                            bulletThree="Identified and delivered user personas, future state journeys, future state service blueprints, proposed functional requirements, and recommendations for a better future experience."
+                            />
                         <ProjectCard
                             imageAlt="airline seatback experience"
                             image={Airline}
@@ -84,32 +93,41 @@ function Profile() {
                         <ProjectCard
                             imageAlt="logistics design system documentation site"
                             image={Logistics}
-                            title="Design System maintenance and documentation site for global logistics company"
+                            title="Design system maintenance and documentation site for global logistics company"
                             role="My Role: Design System Lead"
                             bulletOne="Designed and maintained styles, patterns, and components of the design system in Figma."
                             bulletTwo="Managed a team of 5 developers as they implemented the functional components in React and React Native."
                             bulletThree="Initiated and lead effort to build a one-stop shop documentation site that enabled both designers and developers access important information about design system patterns and components."/>
-                        <ProjectCard
-                            imageAlt="insurance mobile app"
-                            image={Insurance}
-                            title="Mobile Application for national auto insurance company"
-                            role="My Role: UX Designer"
-                            bulletOne="Planned and facilitated a product discovery workshop that informed the product roadmap."
-                            bulletTwo="Collaborated with the research team to ensure product designs delivered value to the end user and provided the client with a competitive advantage."
-                            bulletThree="Iteratively designed and delivered high-fidelity clickable prototypes in InVision and Sketch covering the full MVP feature set."/>
+
                         <ProjectCard
                             imageAlt="bank design system"
                             image={Bank}
-                            title="File Migration to Figma, Pattern Audit, and Design System creation for national bank"
-                            role="My Role: Design System Subject Matter Expert"
+                            title="File migration to Figma, design pattern audit, and design system creation for national bank"
+                            role="My Role: Design System Lead"
                             bulletOne="Performed a full audit of all design patterns across several siloed design teams."
                             bulletTwo="Established a Figma design system from scratch, incorporating atomic design principles."
                             bulletThree="Facilitated weekly calls with stakeholders across the many teams to help reach unified decisions about the patterns, components, and overall design direction."
                             bulletFour="Implemented new processes for designers to request components or report bugs as needed."/>
                         <ProjectCard
+                            imageAlt="insurance mobile app"
+                            image={Insurance}
+                            title="Mobile application for national auto insurance company"
+                            role="My Role: UX Designer"
+                            bulletOne="Planned and facilitated a product discovery workshop that informed the product roadmap."
+                            bulletTwo="Collaborated with the research team to ensure product designs delivered value to the end user and provided the client with a competitive advantage."
+                            bulletThree="Iteratively designed and delivered high-fidelity clickable prototypes in InVision and Sketch covering the full MVP feature set."/>
+                        <ProjectCard
+                            imageAlt="CLI logo and design system"
+                            image={CLI}
+                            title="Logo design, style guide, and design system for marketing a branded command line interface"
+                            role="My Role: Design Lead"
+                            bulletOne="Designed and built the logo, the branding, and the design system for the documentation & marketing site of a consumer-facing command line interface."
+                            bulletTwo="Lead regular design reviews with key stakeholders to collect feedback."
+                            bulletThree="Worked directly with team of developers to maintain parity between Figma designs and production code."/>
+                        <ProjectCard
                             imageAlt="zelle integration tool"
                             image={Zelle}
-                            title="CSS Implementation for Zelle integration tool"
+                            title="CSS implementation for Zelle integration tool"
                             role="My Role: UI Developer"
                             bulletOne="Developed functional frontend components and pages using Angular and SASS."
                             bulletTwo="Ensured that every pixel of the application aligned with the lead designer’s vision."
@@ -117,7 +135,7 @@ function Profile() {
                         <ProjectCard
                             imageAlt="e-commerce checkout experience"
                             image={Ecommerce}
-                            title="Responsive E-Commerce Platform for dental supplier"
+                            title="Responsive e-commerce platform for dental supplier"
                             role="My Role: React Developer & UX Designer"
                             bulletOne="Conducted user interviews and research synthesis in order to better understand user needs and pain points."
                             bulletTwo="Developed frontend components and pages using React, Redux, and LESS."
