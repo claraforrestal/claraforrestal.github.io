@@ -47,8 +47,29 @@ a.presentation-card-link {
             }
         }
 
-        img.presentation-card-image{
+        img.presentation-card-image {
             height: 136px;
         }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .recent-presentations-wrapper {
+        position: relative;
+        margin-left: -40px;
+        margin-right: -40px;
+
+        a.presentation-card-link .presentation-card {
+            flex-direction: column;
+            gap: 24px;
+
+            .presentation-card-image {
+                align-self: end;
+            }
+        }
+    }
+
+    .recent-projects{
+        margin-top: 0;
     }
 }
