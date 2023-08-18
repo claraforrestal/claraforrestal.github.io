@@ -89,3 +89,17 @@ h5 {
     gap: 16px;
     margin-top: 397px;
 }
+
+@media only screen and (max-width: 900px) {
+    .content {
+        padding: 0 40px;
+
+        .hero img.avatar {
+            display: none;
+        }
+
+        .recent-presentations-wrapper .recent-presentations {
+            padding: 88px 40px;
+        }
+    }
+}
