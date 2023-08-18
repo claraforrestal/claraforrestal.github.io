@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.77eabb77.css",
-    "main.js": "/static/js/main.7c097e30.js",
+    "main.css": "/static/css/main.bb7c1bfe.css",
+    "main.js": "/static/js/main.e7129404.js",
     "static/js/787.d8c47fce.chunk.js": "/static/js/787.d8c47fce.chunk.js",
     "static/media/airline.png": "/static/media/airline.e5cf01ac313c0c3fda50.png",
     "static/media/insurance.png": "/static/media/insurance.c42c37b516f5c2a6716f.png",
+    "static/media/website.png": "/static/media/website.af3119a23d48199315e3.png",
     "static/media/zelle.png": "/static/media/zelle.686f4912fe0cfac864eb.png",
     "static/media/bank.png": "/static/media/bank.bb931dc2284a28ec0c1e.png",
     "static/media/ecommerce.png": "/static/media/ecommerce.79bb063a072ea07f96a5.png",
     "static/media/logistics.png": "/static/media/logistics.5c2256cec0d66800c930.png",
     "static/media/CFAvatar.png": "/static/media/CFAvatar.ccb8ccd9a917d5064a3f.png",
     "index.html": "/index.html",
-    "main.77eabb77.css.map": "/static/css/main.77eabb77.css.map",
-    "main.7c097e30.js.map": "/static/js/main.7c097e30.js.map",
+    "main.bb7c1bfe.css.map": "/static/css/main.bb7c1bfe.css.map",
+    "main.e7129404.js.map": "/static/js/main.e7129404.js.map",
     "787.d8c47fce.chunk.js.map": "/static/js/787.d8c47fce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77eabb77.css",
-    "static/js/main.7c097e30.js"
+    "static/css/main.bb7c1bfe.css",
+    "static/js/main.e7129404.js"
   ]
 }
