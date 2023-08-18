@@ -7,7 +7,7 @@ function ProjectCard(props) {
         <div className='project-card'>
             <h2 className="title">{props.title}</h2>
             <div className="project-card-contents">
-                <img alt={props.imageAlt} src={props.image}/>
+                {props.image && (<img alt={props.imageAlt} src={props.image}/>)}
                 <div className="project-card-text">
                     <div className="role">{props.role}</div>
                     <ul>

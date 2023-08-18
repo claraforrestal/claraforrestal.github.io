@@ -13,6 +13,7 @@ import Insurance from '../../assets/projects/insurance.png';
 import Bank from '../../assets/projects/bank.png';
 import Zelle from '../../assets/projects/zelle.png';
 import Ecommerce from '../../assets/projects/ecommerce.png';
+import Website from '../../assets/projects/website.png';
 
 function Profile() {
     return (
@@ -62,6 +63,15 @@ function Profile() {
                 <div className='recent-projects'>
                     <h5>Recent projects</h5>
                     <div className='project-cards'>
+                    <ProjectCard
+                            imageAlt="design system for website redesign"
+                            image={Website}
+                            title="Design System creation and maintenance for the redesign of  marketing website"
+                            role="My Role: Design System Lead"
+                            bulletOne="Managed a team of 3 designers as we established a design system for an ongoing initiative."
+                            bulletTwo="Built Figma styles and components, using auto layout, variables, and advanced properties."
+                            bulletThree="Worked closely with developers, project managers, and designers to make decisions and to create a new and improved website on a tight deadline."
+                            bulletFour="Incorporated principles of OOUX to inform layout, structure, and information architecture of the site."/>
                         <ProjectCard
                             imageAlt="airline seatback experience"
                             image={Airline}
@@ -74,7 +84,7 @@ function Profile() {
                         <ProjectCard
                             imageAlt="logistics design system documentation site"
                             image={Logistics}
-                            title="Design System maintenance and documentation site for Global Logistics Company"
+                            title="Design System maintenance and documentation site for global logistics company"
                             role="My Role: Design System Lead"
                             bulletOne="Designed and maintained styles, patterns, and components of the design system in Figma."
                             bulletTwo="Managed a team of 5 developers as they implemented the functional components in React and React Native."
@@ -82,7 +92,7 @@ function Profile() {
                         <ProjectCard
                             imageAlt="insurance mobile app"
                             image={Insurance}
-                            title="Mobile Application for National Auto Insurance Company"
+                            title="Mobile Application for national auto insurance company"
                             role="My Role: UX Designer"
                             bulletOne="Planned and facilitated a product discovery workshop that informed the product roadmap."
                             bulletTwo="Collaborated with the research team to ensure product designs delivered value to the end user and provided the client with a competitive advantage."
@@ -90,7 +100,7 @@ function Profile() {
                         <ProjectCard
                             imageAlt="bank design system"
                             image={Bank}
-                            title="File Migration to Figma, Pattern Audit, and Design System creation for National Bank"
+                            title="File Migration to Figma, Pattern Audit, and Design System creation for national bank"
                             role="My Role: Design System Subject Matter Expert"
                             bulletOne="Performed a full audit of all design patterns across several siloed design teams."
                             bulletTwo="Established a Figma design system from scratch, incorporating atomic design principles."
@@ -99,7 +109,7 @@ function Profile() {
                         <ProjectCard
                             imageAlt="zelle integration tool"
                             image={Zelle}
-                            title="CSS Implementation for Zelle Integration Tool"
+                            title="CSS Implementation for Zelle integration tool"
                             role="My Role: UI Developer"
                             bulletOne="Developed functional frontend components and pages using Angular and SASS."
                             bulletTwo="Ensured that every pixel of the application aligned with the lead designer’s vision."
@@ -107,7 +117,7 @@ function Profile() {
                         <ProjectCard
                             imageAlt="e-commerce checkout experience"
                             image={Ecommerce}
-                            title="Responsive E-Commerce Platform for Dental Supplier"
+                            title="Responsive E-Commerce Platform for dental supplier"
                             role="My Role: React Developer & UX Designer"
                             bulletOne="Conducted user interviews and research synthesis in order to better understand user needs and pain points."
                             bulletTwo="Developed frontend components and pages using React, Redux, and LESS."
