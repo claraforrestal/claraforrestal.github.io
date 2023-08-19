@@ -10,6 +10,7 @@ function ProjectCard(props) {
                 {props.image && (<img alt={props.imageAlt} src={props.image}/>)}
                 <div className="project-card-text">
                     <div className="role">{props.role}</div>
+                    { props.skills && (<div className="skills">{props.skills}</div>)}
                     <ul>
                         {props.bulletOne && (<li>{props.bulletOne}</li>)}
                         {props.bulletTwo && (<li>{props.bulletTwo}</li>)}

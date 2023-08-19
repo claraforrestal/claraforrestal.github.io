@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    padding: 51px 461px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    img.icon {
+        height: 30px;
+        width: 30px;
+    }
+
+}
