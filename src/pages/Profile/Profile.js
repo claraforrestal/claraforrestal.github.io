@@ -18,6 +18,7 @@ import Website from '../../assets/projects/website.png';
 import CLI from '../../assets/projects/cli.png';
 import DAF from '../../assets/projects/daf.png';
 import LinkedIn from "../../assets/icons/Linkedin.png";
+import Process from "../../assets/process-cards.png";
 
 function Profile() {
     return (
@@ -83,8 +84,7 @@ function Profile() {
                             skills="Product Strategy, OOUX"
                             bulletOne="Performed an full audit and analysis of the existing digital experiences for customers and for internal employees."
                             bulletTwo="Lead numerous UX workshops to educate the client on UX best practices and to learn from the stakeholders’ expertise in the financial space."
-                            bulletThree="Identified and delivered user personas, future state journeys, future state service blueprints, proposed functional requirements, and recommendations for a better future experience."
-                            />
+                            bulletThree="Identified and delivered user personas, future state journeys, future state service blueprints, proposed functional requirements, and recommendations for a better future experience."/>
                         <ProjectCard
                             imageAlt="airline seatback experience"
                             image={Airline}
@@ -153,6 +153,11 @@ function Profile() {
                             bulletThree="Designed and delivered high-fidelity, clickable prototypes of new features in InVision and Sketch."
                             bulletFour="Spearheaded a complete redesign of the cart and checkout process to simplify and improve the experience for customers."/>
                     </div>
+                </div>
+                <div className='process'>
+                    <div className='process-content'>
+                        <h5>My process</h5>
+                        <img alt='my process diagram' src={Process}/></div>
                 </div>
             </div>
             <Footer iconPath={LinkedIn}/>

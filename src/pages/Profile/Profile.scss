@@ -1,8 +1,8 @@
 
 .content {
-    padding: 0 148px;
-    max-width: 1000px;
-    margin: auto;
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
 }
 
 .hero {
@@ -10,6 +10,8 @@
     display: inline-flex;
     flex-direction: row;
     gap: 40px;
+    max-width: 1000px;
+    margin: auto;
 
     h1 {
         color: #000;
@@ -60,9 +62,6 @@ h5 {
 
 .recent-presentations-wrapper {
     background: #E5F1EC;
-    position: absolute;
-    left: 0;
-    right: 0;
 
     .recent-presentations {
         display: flex;
@@ -93,6 +92,23 @@ h5 {
     align-items: flex-start;
     gap: 16px;
     margin-top: 397px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.process {
+    background-image: url(../../assets/dot-pattern.png);
+    background-repeat: repeat;
+    padding: 40px 0;
+
+    .process-content {
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    img {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 900px) {
