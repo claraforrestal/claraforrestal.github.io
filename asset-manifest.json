@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.2bdc2cb0.css",
-    "main.js": "/static/js/main.1ae2d104.js",
+    "main.css": "/static/css/main.6a1df4ac.css",
+    "main.js": "/static/js/main.5ab52a41.js",
     "static/js/787.d8c47fce.chunk.js": "/static/js/787.d8c47fce.chunk.js",
-    "static/media/process-cards.png": "/static/media/process-cards.3d8256e30e6215a59d86.png",
+    "static/media/process-cards.png": "/static/media/process-cards.7482dcf7236ad6610621.png",
     "static/media/website.png": "/static/media/website.80747c1717371db0c660.png",
     "static/media/cli.png": "/static/media/cli.f0eb8f1cac4abb27d233.png",
     "static/media/airline.png": "/static/media/airline.fac6af61a1e2499e8a1a.png",
@@ -15,12 +15,12 @@
     "static/media/ecommerce.png": "/static/media/ecommerce.79bb063a072ea07f96a5.png",
     "static/media/logistics.png": "/static/media/logistics.5c2256cec0d66800c930.png",
     "index.html": "/index.html",
-    "main.2bdc2cb0.css.map": "/static/css/main.2bdc2cb0.css.map",
-    "main.1ae2d104.js.map": "/static/js/main.1ae2d104.js.map",
+    "main.6a1df4ac.css.map": "/static/css/main.6a1df4ac.css.map",
+    "main.5ab52a41.js.map": "/static/js/main.5ab52a41.js.map",
     "787.d8c47fce.chunk.js.map": "/static/js/787.d8c47fce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bdc2cb0.css",
-    "static/js/main.1ae2d104.js"
+    "static/css/main.6a1df4ac.css",
+    "static/js/main.5ab52a41.js"
   ]
 }
