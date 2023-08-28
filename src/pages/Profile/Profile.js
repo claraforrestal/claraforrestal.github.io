@@ -29,7 +29,7 @@ function Profile() {
                     <div className='hero-content'>
 
                         <h1>I’m Clara Forrestal</h1>
-                        <h4>Senior UX Designer & Design Systems Expert</h4>
+                        <h4>Senior UX Designer & Design Systems Consultant</h4>
                         <p>I strive to create exceptional experiences not only for end-users, but also
                             for my colleagues and clients. By eliminating friction across teams, optimizing
                             processes, and establishing design systems, I facilitate the success of my team

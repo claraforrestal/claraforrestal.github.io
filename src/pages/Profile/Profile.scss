@@ -99,7 +99,9 @@ h5 {
 .process {
     background-image: url(../../assets/dot-pattern.png);
     background-repeat: repeat;
-    padding: 88px 0;
+    background-position: center bottom;
+    background-size: 12px 12px;
+    padding: 92px 0 88px;
 
     .process-content {
         max-width: 1000px;
